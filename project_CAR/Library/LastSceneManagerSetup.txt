@@ -1,5 +1,13 @@
 sceneSetups:
-- path: Assets/Racing Tracks/Scenes/Classical City/Day Time.unity
+- path: Assets/Scenes/Title.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarMenu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Racing Tracks/Scenes/Classical City/Night Time.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

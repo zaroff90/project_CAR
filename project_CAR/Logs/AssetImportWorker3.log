@@ -2,7 +2,7 @@ Unity Editor version:    2021.3.5f1 (40eb3a945986)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.5.1 (Build 21G83)
+macOS version:           Version 12.6 (Build 21G115)
 Darwin version:          21.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker3
 -projectPath
-/Users/bsmith/Desktop/untitled folder/project_CAR
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-59577
-Successfully changed project path to: /Users/bsmith/Desktop/untitled folder/project_CAR
-/Users/bsmith/Desktop/untitled folder/project_CAR
+51766
+Successfully changed project path to: /Users/bsmith/code/zaroff/project_CAR/project_CAR
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/bsmith/Desktop/untitled folder/proj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 108.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/bsmith/Desktop/untitled folder/project_CAR/Assets
+[Subsystems] Discovering subsystems at path /Users/bsmith/code/zaroff/project_CAR/project_CAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
 Metal devices available: 2
@@ -70,93 +70,93 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56578
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001186 seconds.
+Registered in 0.002528 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 104.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  0.907 seconds
 Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (373ms)
+			SetupLoadedEditorAssemblies (441ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003624 seconds.
+Registered in 0.012685 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
+- Completed reload, in  1.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1409ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1246ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1006ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (374ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (95.2 KB). Loaded Objects now: 3827.
-Memory consumption went from 234.9 MB to 234.8 MB.
-Total: 3.618524 ms (FindLiveObjects: 0.293864 ms CreateObjectMapping: 0.221596 ms MarkObjects: 2.976447 ms  DeleteObjects: 0.124954 ms)
+Unloading 3426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.9 KB). Loaded Objects now: 3919.
+Memory consumption went from 249.1 MB to 249.0 MB.
+Total: 3.579128 ms (FindLiveObjects: 0.286471 ms CreateObjectMapping: 0.221622 ms MarkObjects: 2.947280 ms  DeleteObjects: 0.122908 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,745 +170,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 78677.010971 seconds.
-  path: Assets/Touring Car Pack/Meshes/Merc.FBX
-  artifactKey: Guid(5457ef93bfcfc4041aec8902f0787636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Touring Car Pack/Meshes/Merc.FBX using Guid(5457ef93bfcfc4041aec8902f0787636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38d622a5c22a516e19dba59b15ef65') in 1.569482 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002271 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1377ms)
-		BeginReloadAssembly (205ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		EndReloadAssembly (1042ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.6 KB). Loaded Objects now: 3872.
-Memory consumption went from 246.8 MB to 246.7 MB.
-Total: 5.916946 ms (FindLiveObjects: 0.528196 ms CreateObjectMapping: 0.438515 ms MarkObjects: 4.804971 ms  DeleteObjects: 0.143781 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 14224.798823 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay@2x.png
+  artifactKey: Guid(2bb4e96f5d0b02c468932d665a015c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay@2x.png using Guid(2bb4e96f5d0b02c468932d665a015c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd666a3b055eb02e80a174fe944ffee7d') in 0.532710 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.618178 seconds.
-  path: Assets/Race Car Package/Prefab/Car_3.prefab
-  artifactKey: Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Race Car Package/Prefab/Car_3.prefab using Guid(7270d86670806f44a9c24b44dfc8c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de19f94f66023b04aeb23f31352e6f') in 0.366638 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003277 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.566 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1567ms)
-		BeginReloadAssembly (195ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (1219ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (509ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (362ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3875.
-Memory consumption went from 251.2 MB to 251.1 MB.
-Total: 4.192953 ms (FindLiveObjects: 0.383508 ms CreateObjectMapping: 0.257313 ms MarkObjects: 3.447805 ms  DeleteObjects: 0.103372 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002945 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bsmith/Desktop/untitled folder/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.401 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1402ms)
-		BeginReloadAssembly (159ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1109ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (485ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.7 KB). Loaded Objects now: 3878.
-Memory consumption went from 251.4 MB to 251.3 MB.
-Total: 3.515525 ms (FindLiveObjects: 0.285833 ms CreateObjectMapping: 0.143833 ms MarkObjects: 2.886246 ms  DeleteObjects: 0.198878 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 102.224710 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 02.prefab
-  artifactKey: Guid(caf35064b59d829489ed219089ec036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 02.prefab using Guid(caf35064b59d829489ed219089ec036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8b92c656b6583941d92615b2fbdd9a') in 0.376861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 05.prefab
-  artifactKey: Guid(9b438e2f8534fad4aa8b879b6999f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 05.prefab using Guid(9b438e2f8534fad4aa8b879b6999f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1d4e1fba6d8fc807fc1c34122c7a5a') in 0.020042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 35.prefab
-  artifactKey: Guid(ea19d3897e36f874988b907089a52572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 35.prefab using Guid(ea19d3897e36f874988b907089a52572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f407b2af4e098ca1c45be30291059bc') in 0.019178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 21.prefab
-  artifactKey: Guid(e8787f3c268676e4b912a1943441bd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 21.prefab using Guid(e8787f3c268676e4b912a1943441bd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548b7c99a89d62e93a17d73cfedf77fd') in 0.020086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 07.prefab
-  artifactKey: Guid(d69085f64dd353d4593911f3a8fbe959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 07.prefab using Guid(d69085f64dd353d4593911f3a8fbe959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ad5a1386949c2cea071637a28ce7b5') in 0.018218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 24.prefab
-  artifactKey: Guid(6f4b1f5e18fedb34dba95f4c59f9c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 24.prefab using Guid(6f4b1f5e18fedb34dba95f4c59f9c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee012ee44c7f8223ac95ea8f7324cf') in 0.024067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 18.prefab
-  artifactKey: Guid(1c040b3c233a8874a8abeaf9ef05fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 18.prefab using Guid(1c040b3c233a8874a8abeaf9ef05fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8023ff0eed30afa9535892d69a3241c') in 0.020675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 12.prefab
-  artifactKey: Guid(628dc6c65ac4a9e4fb210d0b5af72380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 12.prefab using Guid(628dc6c65ac4a9e4fb210d0b5af72380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa643bd655014cb372231ee09721289') in 0.021306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 17.prefab
-  artifactKey: Guid(7a383f5987b59c94491019f89e4befd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 17.prefab using Guid(7a383f5987b59c94491019f89e4befd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5757fce52c58b946a70e3cc3e5dc4b8') in 0.022194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 29.prefab
-  artifactKey: Guid(3711a3acbf42224478785165572a0c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 29.prefab using Guid(3711a3acbf42224478785165572a0c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a060fb3cb39b8e59f7075f82caafa35') in 0.017623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 26.prefab
-  artifactKey: Guid(dc0364ccc743ef04e8b014b3ed7a2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 26.prefab using Guid(dc0364ccc743ef04e8b014b3ed7a2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35991e6b417d94cf1d59452343f8978') in 0.023848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 19.prefab
-  artifactKey: Guid(1e553c4d55f06b0408008ab649437436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 19.prefab using Guid(1e553c4d55f06b0408008ab649437436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7682b27b729a51e129d385e423397a9') in 0.020424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 10.prefab
-  artifactKey: Guid(15dfe942a0bba144eb6f057275d122fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 10.prefab using Guid(15dfe942a0bba144eb6f057275d122fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7905c56ff7f18b094b289b731c8a169') in 0.019965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 27.prefab
-  artifactKey: Guid(24b769ca346825a4cb208a8d4109721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 27.prefab using Guid(24b769ca346825a4cb208a8d4109721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff933278b465c3c10f832f50142e8d6') in 0.016407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 09.prefab
-  artifactKey: Guid(ee3accb9106cc3043b71c8cd9136ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 09.prefab using Guid(ee3accb9106cc3043b71c8cd9136ce18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7468130a83041312bc9ed0e27c9a7b18') in 0.018002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Racing Tracks/Building Prefab/Prefab 28.prefab
-  artifactKey: Guid(bc4142eed56d6c1469b518935085055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Building Prefab/Prefab 28.prefab using Guid(bc4142eed56d6c1469b518935085055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6689c1db73bf4a6d72604bb774c248d0') in 0.017265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.164256 seconds.
-  path: Assets/Racing Tracks/Lens Flares/35mm Lens.flare
-  artifactKey: Guid(0e5f153f2f9d947ba914bbf16a151626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/35mm Lens.flare using Guid(0e5f153f2f9d947ba914bbf16a151626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f1a71cf683af455050f60ac635c54') in 0.094690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Subtle3.flare
-  artifactKey: Guid(29448ba5a39814955bf076b95bffcada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Subtle3.flare using Guid(29448ba5a39814955bf076b95bffcada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94976a3d017346ad7dc0a5ad53d83aed') in 0.002398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Subtle1.flare
-  artifactKey: Guid(6174f2fe01a3c418090a23ec2f36e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Subtle1.flare using Guid(6174f2fe01a3c418090a23ec2f36e684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da91af32f6c53010fdeaf206f1eef62c') in 0.002904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Welding.flare
-  artifactKey: Guid(5681314a26a394990806a2eb6f15a468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Welding.flare using Guid(5681314a26a394990806a2eb6f15a468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5c34c92a263e9a848e6a5d8a6ed10b') in 0.002492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Halogen Bulb.flare
-  artifactKey: Guid(92cd0f8877eff40d3b5e3357384d5f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Halogen Bulb.flare using Guid(92cd0f8877eff40d3b5e3357384d5f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61248e0503d7a9523ce71362a5edf78') in 0.002708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Sun (from space).flare
-  artifactKey: Guid(8541d94808d5849d8bfa480259334205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Sun (from space).flare using Guid(8541d94808d5849d8bfa480259334205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015528e1452f87f491f0070f9245f575') in 0.003141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Concert.flare
-  artifactKey: Guid(bc8d761cacc3740fbab1c96eb12fe12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Concert.flare using Guid(bc8d761cacc3740fbab1c96eb12fe12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1b2bd18a4b3b99cef451b85cd52bcd') in 0.002861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Racing Tracks/Lens Flares/Subtle2.flare
-  artifactKey: Guid(491f42dc6a72d468784d9e40740471b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Lens Flares/Subtle2.flare using Guid(491f42dc6a72d468784d9e40740471b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8b0d63ef4be2d681563dbf60b42726') in 0.002603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 584.525757 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-0_comp_dir.png
-  artifactKey: Guid(f6edb7f8ad1064a499828ab959f4586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-0_comp_dir.png using Guid(f6edb7f8ad1064a499828ab959f4586e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd85d306c05bd055eeb6cca5e1ff0933') in 0.149807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-16_comp_light.exr
-  artifactKey: Guid(f57d1255b99dfe34aa763d78e6d57994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-16_comp_light.exr using Guid(f57d1255b99dfe34aa763d78e6d57994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7afe6cb1099ef673e9250d84ae06496') in 0.810535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-0_comp_light.exr
-  artifactKey: Guid(5405c77b506393141886177e4ddac34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-0_comp_light.exr using Guid(5405c77b506393141886177e4ddac34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bea70dcce80d7b0009efdc0998e0d21') in 0.018379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-10_comp_dir.png
-  artifactKey: Guid(abd9034c0ee07f943b3773d78e377543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-10_comp_dir.png using Guid(abd9034c0ee07f943b3773d78e377543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f09a90e0473cfceca06d59c4f563635') in 0.014625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-3_comp_dir.png
-  artifactKey: Guid(ddbe1dcfe5950db4f95c5d0317109979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-3_comp_dir.png using Guid(ddbe1dcfe5950db4f95c5d0317109979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae924ebbee79288cd0514f9bd4b6767') in 0.026158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-14_comp_dir.png
-  artifactKey: Guid(fdf8118c2f5831d45827b234d1c2d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-14_comp_dir.png using Guid(fdf8118c2f5831d45827b234d1c2d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b543c82950e14c3ddbab9f9db116971') in 0.022450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-12_comp_dir.png
-  artifactKey: Guid(7c211e03ca13c194c858c0bbb74b0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-12_comp_dir.png using Guid(7c211e03ca13c194c858c0bbb74b0434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df5981943794e14ab739695aad09f02') in 0.022258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-13_comp_light.exr
-  artifactKey: Guid(79bc2fb1861990d4e9cb6843ce548001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-13_comp_light.exr using Guid(79bc2fb1861990d4e9cb6843ce548001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82276f1273c3dd4f8b8d817c154c2e2') in 0.018035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/ReflectionProbe-0.exr
-  artifactKey: Guid(fffc34f7bd0ae3a438528bb6d23e786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/ReflectionProbe-0.exr using Guid(fffc34f7bd0ae3a438528bb6d23e786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ac708032b858230579403cbfca739f') in 0.124559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-1_comp_light.exr
-  artifactKey: Guid(eb3420278e8dca147a6f23f37c021430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-1_comp_light.exr using Guid(eb3420278e8dca147a6f23f37c021430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93200a6327ccf1b62d64b4aec19be25d') in 0.020206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-2_comp_light.exr
-  artifactKey: Guid(1caf909ca00ed6e46a60dd0ca091aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-2_comp_light.exr using Guid(1caf909ca00ed6e46a60dd0ca091aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd037beba3a3025b9da1cf1760c2f751c') in 0.026024 seconds 
+  Time since last request: 1.875852 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover.png
+  artifactKey: Guid(6a9d211bea1bc4a429d86cbb2d0b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover.png using Guid(6a9d211bea1bc4a429d86cbb2d0b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2bc4342e28367029da5a410617daf6') in 0.016276 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000081 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-15_comp_dir.png
-  artifactKey: Guid(28f1c97fd865cff4398577732c4bdf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-15_comp_dir.png using Guid(28f1c97fd865cff4398577732c4bdf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2a677c8e3fb912c39064371ebe9f5') in 0.014278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-8_comp_dir.png
-  artifactKey: Guid(70287d16d5c9210429dae2b567a1d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-8_comp_dir.png using Guid(70287d16d5c9210429dae2b567a1d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec93ea8da0c99ede09bd319fb9adfa9') in 0.016890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-11_comp_dir.png
-  artifactKey: Guid(30c5d730c17a48f4c85d734b679051fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-11_comp_dir.png using Guid(30c5d730c17a48f4c85d734b679051fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099f281ab3086187307ee53c6cf9a03') in 0.014368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-13_comp_dir.png
-  artifactKey: Guid(ace436034d004bd4ba4dab1d327dabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-13_comp_dir.png using Guid(ace436034d004bd4ba4dab1d327dabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafd71f3538f778ac69d9008962a0521') in 0.015339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-10_comp_light.exr
-  artifactKey: Guid(289a5743b6f9c0d4c8f0761dd6ce1fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-10_comp_light.exr using Guid(289a5743b6f9c0d4c8f0761dd6ce1fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae48bbdb1a32218172c8451fae7df3') in 0.012645 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuho.png
+  artifactKey: Guid(e92527f6d0fe45342ab542b47346d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stevejobsbuho.png using Guid(e92527f6d0fe45342ab542b47346d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c749f832de615c38c9e0b02c0eae400') in 0.024155 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000065 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-17_comp_dir.png
-  artifactKey: Guid(42792ed6e0ae32f419c9d39cb641d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-17_comp_dir.png using Guid(42792ed6e0ae32f419c9d39cb641d620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e09994057455d719c24dfc73edf55') in 0.014914 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png
+  artifactKey: Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay.png using Guid(4bd47f86a00dd2b4b8ab20a11de165f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845d0b4574cb34fe7aa0819c0a26f5a5') in 0.017081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-7_comp_dir.png
-  artifactKey: Guid(0a0933732a1c2d74b9b03b4d449988eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-7_comp_dir.png using Guid(0a0933732a1c2d74b9b03b4d449988eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f16db6f1c18ed0a81d82d931c7ffae4') in 0.018425 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png
+  artifactKey: Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png using Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4117b6fbb227b86d87b2f5dee5899c') in 0.016897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-16_comp_dir.png
-  artifactKey: Guid(43c7e0858fab5bd41a95a15c476ec20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-16_comp_dir.png using Guid(43c7e0858fab5bd41a95a15c476ec20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2f05aff6944392bbe453357426a1d0') in 0.014274 seconds 
+  Time since last request: 0.000067 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted.png
+  artifactKey: Guid(d1c88f142eee55b4eb2b2cfd7b3624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted.png using Guid(d1c88f142eee55b4eb2b2cfd7b3624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9ad75b7f49e15e5158cc3de2e9da55') in 0.017636 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-8_comp_light.exr
-  artifactKey: Guid(c58479b9528ecbb4fa3d3f21970ef1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Day Time/Lightmap-8_comp_light.exr using Guid(c58479b9528ecbb4fa3d3f21970ef1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7326df030a81d5573f133613b1a17b3d') in 0.014437 seconds 
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png
+  artifactKey: Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png using Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee7f8a279bec6486787048c57ea694f') in 0.017526 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.978567 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-0_comp_dir.png
-  artifactKey: Guid(0efddf581bbd3454e8fcec10cd4f1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-0_comp_dir.png using Guid(0efddf581bbd3454e8fcec10cd4f1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e7710f7a5e1e6d70f5c4f3b0e3e325') in 0.012245 seconds 
+  Time since last request: 0.000130 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png
+  artifactKey: Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png using Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74542aa183390265a8bf760f4932508') in 0.015282 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-8_comp_light.exr
-  artifactKey: Guid(184ace3152d3f504896586e9c1002d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-8_comp_light.exr using Guid(184ace3152d3f504896586e9c1002d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adfebd27d58b274137df4b8edac1487') in 0.010257 seconds 
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay.png
+  artifactKey: Guid(0a78c2b019ae1e5448f50d83adcfd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay.png using Guid(0a78c2b019ae1e5448f50d83adcfd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cc8415ddb96814cc3654c251e5eb4f') in 0.016381 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-4_comp_light.exr
-  artifactKey: Guid(ac6c3dee547e50f4fbed81ab7c09d9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-4_comp_light.exr using Guid(ac6c3dee547e50f4fbed81ab7c09d9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915f85128d5893d6481d89fd3ef85477') in 0.011594 seconds 
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step2@2x.png
+  artifactKey: Guid(cdb88fdb0cf46b244a667edaff21c7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step2@2x.png using Guid(cdb88fdb0cf46b244a667edaff21c7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22bcda983036165c96157d957625ee6') in 0.018246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-10_comp_dir.png
-  artifactKey: Guid(5684198def595b4499e2b536bd758146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-10_comp_dir.png using Guid(5684198def595b4499e2b536bd758146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960d96bd5300b1dce246567d428d371') in 0.016218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-12_comp_dir.png
-  artifactKey: Guid(e570369e786f1a74fbec4e46d13a7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-12_comp_dir.png using Guid(e570369e786f1a74fbec4e46d13a7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22ed6c4dfe8e117d0c80f4cbf40088') in 0.013901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-13_comp_dir.png
-  artifactKey: Guid(a5cf89564ad2b4c428eea9c19a71b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-13_comp_dir.png using Guid(a5cf89564ad2b4c428eea9c19a71b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce20ff46f1eb9b712501f0aa3271b3b') in 0.014363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-5_comp_dir.png
-  artifactKey: Guid(2b62648b399832043a48ec87b5973d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-5_comp_dir.png using Guid(2b62648b399832043a48ec87b5973d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c15291d33a7d4a5444c5af99be2e4') in 0.016969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-16_comp_dir.png
-  artifactKey: Guid(39d1fe392e267db4ab45b37128a42da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-16_comp_dir.png using Guid(39d1fe392e267db4ab45b37128a42da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23e8bc0520c606b06d7b150da5add2c') in 0.017981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-17_comp_dir.png
-  artifactKey: Guid(76d32cb7f4420cf48964f7a65580f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-17_comp_dir.png using Guid(76d32cb7f4420cf48964f7a65580f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f9fb15f5c453e4b01b4922ea78499b') in 0.017818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-8_comp_dir.png
-  artifactKey: Guid(ba6f4c3b58de8c54bb307626a2f52831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-8_comp_dir.png using Guid(ba6f4c3b58de8c54bb307626a2f52831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73490bdc1c465baedfc80e44ed21f42') in 0.015871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/ReflectionProbe-0.exr
-  artifactKey: Guid(71daea105829adb438becd30a2282659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/ReflectionProbe-0.exr using Guid(71daea105829adb438becd30a2282659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51efcc5abafa061adadba545e882427c') in 0.019332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-7_comp_light.exr
-  artifactKey: Guid(c57b13357a2d95344823395a3ca87bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-7_comp_light.exr using Guid(c57b13357a2d95344823395a3ca87bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32274b5f7f0183392740b07b62ab925b') in 0.017216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-14_comp_light.exr
-  artifactKey: Guid(5cca261c14f62574899e10f0391a00e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-14_comp_light.exr using Guid(5cca261c14f62574899e10f0391a00e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d3196d343e9682a3f4eacc3b53141b') in 0.020346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-6_comp_dir.png
-  artifactKey: Guid(3bae0efd033cba946bcf4ebae2821edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-6_comp_dir.png using Guid(3bae0efd033cba946bcf4ebae2821edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa62f24b62e4cb5df5faca6881387a5') in 0.018074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-2_comp_dir.png
-  artifactKey: Guid(c1347eb239500c6469e39624dca6b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-2_comp_dir.png using Guid(c1347eb239500c6469e39624dca6b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d7cd21ea179269e956b46e08ce656e') in 0.017320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-17_comp_light.exr
-  artifactKey: Guid(8fedb4c3ef4fece43869c62f70b102b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-17_comp_light.exr using Guid(8fedb4c3ef4fece43869c62f70b102b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b9cdb0ab2ce27df8a684228e22717') in 0.021079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-5_comp_light.exr
-  artifactKey: Guid(82c1125a6c210d64ebf75efd519838cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-5_comp_light.exr using Guid(82c1125a6c210d64ebf75efd519838cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cf3770f565cfbb2a7c55be37d7a6ea') in 0.025758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-10_comp_light.exr
-  artifactKey: Guid(467c4d26149e2524fb6251634ba0aaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-10_comp_light.exr using Guid(467c4d26149e2524fb6251634ba0aaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299a253e134e367a919c415b249412d0') in 0.015801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-14_comp_dir.png
-  artifactKey: Guid(24bcfb877eaa1c7428b70adc1ce0aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Classical City/Night Time/Lightmap-14_comp_dir.png using Guid(24bcfb877eaa1c7428b70adc1ce0aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badbe8643c90ecf8f29968b513623c50') in 0.012461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.205148 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-0_comp_light.exr
-  artifactKey: Guid(4a44b0517f384ee4990cb462e88708c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-0_comp_light.exr using Guid(4a44b0517f384ee4990cb462e88708c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ed5c127b7c39bde35ae75304a44eee') in 0.013643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-10_comp_light.exr
-  artifactKey: Guid(0eba6d0d57b1e5c41a095b315b970a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-10_comp_light.exr using Guid(0eba6d0d57b1e5c41a095b315b970a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ca5a34f1bc4cd8d592a4320290c4f6') in 0.014805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-8_comp_light.exr
-  artifactKey: Guid(d95884b8523d52b43bd8a1f6ad068282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-8_comp_light.exr using Guid(d95884b8523d52b43bd8a1f6ad068282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dc7b966e62e6abcdb3adfe0bff94f1') in 0.011628 seconds 
+  Time since last request: 1.512853 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremoteoverlay.png
+  artifactKey: Guid(cc3a9f4e86314f746aa1a97505d6323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremoteoverlay.png using Guid(cc3a9f4e86314f746aa1a97505d6323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422637dfb0caba2f1145f3106d608654') in 0.012750 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-3_comp_light.exr
-  artifactKey: Guid(c49519fcd5cc2fa4eba53a9c9cdba949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-3_comp_light.exr using Guid(c49519fcd5cc2fa4eba53a9c9cdba949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a2221fb366e2d2661ae715f38e7a13') in 0.012390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-4_comp_light.exr
-  artifactKey: Guid(80e0eaf37f6a39a4d9d34dfe489f1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-4_comp_light.exr using Guid(80e0eaf37f6a39a4d9d34dfe489f1d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ac0ed6e9ab494709bbacc7331a5a0') in 0.014262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-6_comp_light.exr
-  artifactKey: Guid(1207a5965247df143802018d2d151dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-6_comp_light.exr using Guid(1207a5965247df143802018d2d151dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0cd2a2e3acd64c931b32071c3421f0') in 0.018394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-14_comp_dir.png
-  artifactKey: Guid(b6f57f435f5f8de48878d93d04533e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-14_comp_dir.png using Guid(b6f57f435f5f8de48878d93d04533e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d54518a747038fa41cf2d841d4334dc') in 0.023156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-2_comp_light.exr
-  artifactKey: Guid(417c69215f81eab4e886dcaff69c9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-2_comp_light.exr using Guid(417c69215f81eab4e886dcaff69c9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3307ccd2e4644297cf819c74b2fe16ee') in 0.028644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-15_comp_light.exr
-  artifactKey: Guid(efcfebd676e2bd2408f78f260a18c0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-15_comp_light.exr using Guid(efcfebd676e2bd2408f78f260a18c0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcebf554c086db2c87b916aadec26c7') in 0.013433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-8_comp_dir.png
-  artifactKey: Guid(204ca67ed3bfb9247a295bddab969323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-8_comp_dir.png using Guid(204ca67ed3bfb9247a295bddab969323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea22e04a664ab17ce71404fc1e608b5b') in 0.018410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/ReflectionProbe-0.exr
-  artifactKey: Guid(f11ed946d26242241a30d108d62885f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/ReflectionProbe-0.exr using Guid(f11ed946d26242241a30d108d62885f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad6de76d749f4e0cfbab44748817a1c') in 0.022973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-5_comp_light.exr
-  artifactKey: Guid(e8db19e6f5be6fe4b8c0e84a917b24a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-5_comp_light.exr using Guid(e8db19e6f5be6fe4b8c0e84a917b24a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d02fd8d37fe31811bda1b4006f22037') in 0.014818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-6_comp_dir.png
-  artifactKey: Guid(c5d89553090dde44bba5386ffab6d361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-6_comp_dir.png using Guid(c5d89553090dde44bba5386ffab6d361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2911ab1e4f6639ee38f52e0f1a16ec8f') in 0.014582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-9_comp_light.exr
-  artifactKey: Guid(1d2f53d13eba0804d95676b4e3f15dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-9_comp_light.exr using Guid(1d2f53d13eba0804d95676b4e3f15dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a2a75bda4d82ef7bdc85739d8c2bba') in 0.013712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-7_comp_light.exr
-  artifactKey: Guid(e8f6a9c3720f72d43a1a6dfa17e29d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Day Time/Lightmap-7_comp_light.exr using Guid(e8f6a9c3720f72d43a1a6dfa17e29d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccd4aa1e2d0c884036facaafd1a47e5') in 0.017336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.862230 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-0_comp_light.exr
-  artifactKey: Guid(c5265a8e73a70fa468b0fbf70eb50340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-0_comp_light.exr using Guid(c5265a8e73a70fa468b0fbf70eb50340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31f8adb6fa2b2478943ab207ecb7095') in 0.015795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-13_comp_dir.png
-  artifactKey: Guid(98181c4610b8c7441944fd21cf4f5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-13_comp_dir.png using Guid(98181c4610b8c7441944fd21cf4f5396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c07c8a0c7dbcb2ca1a61fa7ded2b2e') in 0.013560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-9_comp_light.exr
-  artifactKey: Guid(268cb89a6c7ac394888358be00e267b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-9_comp_light.exr using Guid(268cb89a6c7ac394888358be00e267b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cddf7b16d338be7da9a9d64c440a730') in 0.013369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-11_comp_light.exr
-  artifactKey: Guid(11b4bba7042471548a8555ed5c5b44ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-11_comp_light.exr using Guid(11b4bba7042471548a8555ed5c5b44ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11375e4f713d1d4e0dabce8a790fbcb9') in 0.019655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-14_comp_dir.png
-  artifactKey: Guid(2947077168ec701428be288fcd3e8da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-14_comp_dir.png using Guid(2947077168ec701428be288fcd3e8da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908e1d784ab79cd9448aaca87c3ef6da') in 0.015222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-12_comp_dir.png
-  artifactKey: Guid(f3ee3716b5946b643861ad68cb4d14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-12_comp_dir.png using Guid(f3ee3716b5946b643861ad68cb4d14a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc534f0ec5fab3fd546f6028d07eac6') in 0.013072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-14_comp_light.exr
-  artifactKey: Guid(a98f502237fee544083317ae1c140f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-14_comp_light.exr using Guid(a98f502237fee544083317ae1c140f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3649a34582dc332cc84b473ec120bcd7') in 0.011762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-6_comp_light.exr
-  artifactKey: Guid(db3f074d5b97dd94a87539d3ef9b8d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-6_comp_light.exr using Guid(db3f074d5b97dd94a87539d3ef9b8d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dd7dbb623c33c527fda6e4b7a6e09f') in 0.014859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-8_comp_light.exr
-  artifactKey: Guid(dd38dea83e72ef740a1eecdc1c51a4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-8_comp_light.exr using Guid(dd38dea83e72ef740a1eecdc1c51a4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73841dc8bd49178d46b5bcfc9d3b7c83') in 0.016887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-2_comp_dir.png
-  artifactKey: Guid(a155df6edc6ab3e4291d54ae5b459904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-2_comp_dir.png using Guid(a155df6edc6ab3e4291d54ae5b459904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0f57910b499cc67a525df09e767aec') in 0.014020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/ReflectionProbe-1.exr
-  artifactKey: Guid(55384d2c10d544b4db69f10d67bc8625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/ReflectionProbe-1.exr using Guid(55384d2c10d544b4db69f10d67bc8625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5e63087a188130d5064c7b8fd4fb7b') in 0.025300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-7_comp_dir.png
-  artifactKey: Guid(35b46cc4d3e9aa94cb9729ab834e4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-7_comp_dir.png using Guid(35b46cc4d3e9aa94cb9729ab834e4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ea00d0f815fe272097b26b5536fbce') in 0.022239 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay@2x.png
+  artifactKey: Guid(b528c1b33a65cf94ea74f830b54c9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay@2x.png using Guid(b528c1b33a65cf94ea74f830b54c9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e1e7d64cb2910420c6f0e2d40f624a') in 0.014309 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000087 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-13_comp_light.exr
-  artifactKey: Guid(b971a09e4cc8ed14e9263e597f7d77ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-13_comp_light.exr using Guid(b971a09e4cc8ed14e9263e597f7d77ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41640dc4154e2e0093c6002ff487a26') in 0.026106 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay.png
+  artifactKey: Guid(e78d7bb19d72cdd478600b30412eecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay.png using Guid(e78d7bb19d72cdd478600b30412eecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff606e146449df5bd1b4fbed9c1c7f6') in 0.016882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321465 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay.png
+  artifactKey: Guid(1079db1f4b377fb45aa245fd791993f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay.png using Guid(1079db1f4b377fb45aa245fd791993f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a317c4e037bf5a8f946c825002117374') in 0.013084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png
+  artifactKey: Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png using Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab0f984568ea5b7938c8117550fb7b6') in 0.014310 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000093 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-15_comp_dir.png
-  artifactKey: Guid(4a19b1ad3bd826a49beb0b2ac5330d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-15_comp_dir.png using Guid(4a19b1ad3bd826a49beb0b2ac5330d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c6db0735d4edcb07e3aba832ef1c5c') in 0.019863 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png
+  artifactKey: Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png using Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bb73a1bacc0013039139d3b45fd19b') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.458534 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay.png
+  artifactKey: Guid(9d6e2d7ce65565b4a93d524fe7a05d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay.png using Guid(9d6e2d7ce65565b4a93d524fe7a05d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bda577c5830157eeba15fad2ba4b7a') in 0.019371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay.png
+  artifactKey: Guid(767ce9b1aa9de8747a4c2ffc8b3dd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay.png using Guid(767ce9b1aa9de8747a4c2ffc8b3dd7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b12ba4716356897a9cfaa21ea94551f') in 0.013221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay@2x.png
+  artifactKey: Guid(40685941c1361aa4a957b61174bce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay@2x.png using Guid(40685941c1361aa4a957b61174bce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f4543e89af0d8af4c7e8f00d0c4989') in 0.016617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.915286 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Menu/MouseOrbit.png
+  artifactKey: Guid(2b8f00b3ad7210a45bf438a4dd8565a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Menu/MouseOrbit.png using Guid(2b8f00b3ad7210a45bf438a4dd8565a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c7a1db2025af5dd49e911ecc3cf859') in 0.017700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png
+  artifactKey: Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png using Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405a019f368d2ecceee2085e5fd467ec') in 0.011825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Menu/Padlock.png
+  artifactKey: Guid(0fc0292ccc6650940a9287ebbca1eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Menu/Padlock.png using Guid(0fc0292ccc6650940a9287ebbca1eedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42dc952b695db959ac072ed3a56e0e4') in 0.021268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/Vehicle/Racername.png
+  artifactKey: Guid(e93208428ed34a34cb6b9bdb331479f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/Vehicle/Racername.png using Guid(e93208428ed34a34cb6b9bdb331479f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d4bc28b5738b77b7d99c57d979ab0e') in 0.029926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005768 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Rewind.png
+  artifactKey: Guid(fab5074a3e3748041bc0791112ccf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Rewind.png using Guid(fab5074a3e3748041bc0791112ccf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb541818c47241ee3d939eb09fae2f7') in 0.022207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerBlueBG.png
+  artifactKey: Guid(ab5a61284678a924cb77e4fab2ebb874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerBlueBG.png using Guid(ab5a61284678a924cb77e4fab2ebb874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af6b30a03b3032cba1c68fc23b387c9') in 0.029890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/trophy_silver.png
+  artifactKey: Guid(ba2906256746b184c9fea8eb7a0fd752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/trophy_silver.png using Guid(ba2906256746b184c9fea8eb7a0fd752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50550b7b973608d2d843dd622968da1') in 0.039182 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000099 seconds.
-  path: Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-10_comp_light.exr
-  artifactKey: Guid(f10f2f4a9c384a54b92c8f332000c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time/Lightmap-10_comp_light.exr using Guid(f10f2f4a9c384a54b92c8f332000c19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220f87f26d276e4db7204c73619abd6b') in 0.014839 seconds 
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerRedBG.png
+  artifactKey: Guid(d699ab46f07cbcc44b4de983c1e5f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerRedBG.png using Guid(d699ab46f07cbcc44b4de983c1e5f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a5a8e732cbed8b55ed95988ba6bca7') in 0.030016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerRed.png
+  artifactKey: Guid(9c11c9fe1f95e3346a63c47105621861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/Speedometer/SpeedometerRed.png using Guid(9c11c9fe1f95e3346a63c47105621861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b5201d6829b4ae4f563baf665a805a') in 0.029182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/RacingGameStarterKit/Source/Textures/UI/wrongwayImage.png
+  artifactKey: Guid(ecc6a2f171b5bc74c93e52d448ecfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Textures/UI/wrongwayImage.png using Guid(ecc6a2f171b5bc74c93e52d448ecfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb7a5d462babad0e4797846fe6be83d') in 0.039153 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
