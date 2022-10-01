@@ -1,0 +1,270 @@
+Unity Editor version:    2021.3.5f1 (40eb3a945986)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+57306
+Successfully changed project path to: /Users/bsmith/code/zaroff/project_CAR/project_CAR
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 289.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bsmith/code/zaroff/project_CAR/project_CAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56161
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004856 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 226.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2301ms)
+		BeginReloadAssembly (455ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (456ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (227ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027163 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2774ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2254ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (808ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (181ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (75.0 KB). Loaded Objects now: 3938.
+Memory consumption went from 255.8 MB to 255.7 MB.
+Total: 6.034671 ms (FindLiveObjects: 0.526705 ms CreateObjectMapping: 0.432579 ms MarkObjects: 4.893270 ms  DeleteObjects: 0.180277 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202200.879840 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Player/BikeBody_1.mat
+  artifactKey: Guid(9016a873cff01ad4d91b0901e774a452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Player/BikeBody_1.mat using Guid(9016a873cff01ad4d91b0901e774a452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3946a3b1b48d7db860e8a41d315be8d') in 1.251128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/RacingGameStarterKit/Source/Fonts/RacingSans-Regular.TTF
+  artifactKey: Guid(7404620f86f805446bed3dca2f596fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Fonts/RacingSans-Regular.TTF using Guid(7404620f86f805446bed3dca2f596fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be21fe41722733e33f75be85f67f9f5') in 4.042903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Fender.mat
+  artifactKey: Guid(846775f5c02951d42a88db53bc7f79f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Fender.mat using Guid(846775f5c02951d42a88db53bc7f79f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ec480ac22f0dd370ea9f57d992f34d') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/RacingGameStarterKit/Source/Fonts/Aldrich-Regular.ttf
+  artifactKey: Guid(4721e7a71e3620b4dac13fdc767ee80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Fonts/Aldrich-Regular.ttf using Guid(4721e7a71e3620b4dac13fdc767ee80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c648cdb704ca58995042a57eb7d553ac') in 0.195002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/DefaultAvatar-eyes.mat
+  artifactKey: Guid(e4a12fd3405832f448a43cdddb4a4e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/DefaultAvatar-eyes.mat using Guid(e4a12fd3405832f448a43cdddb4a4e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b232db18638c8c6bdcea28d91449aab7') in 0.018299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/BikeFrontWheel.mat
+  artifactKey: Guid(1f1595771b44692488354aec768a894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/BikeFrontWheel.mat using Guid(1f1595771b44692488354aec768a894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614ce4a8e5dedc91e4c16e621bef36c3') in 0.027949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Racing Tracks/Misc/Skybox/City Day.mat
+  artifactKey: Guid(4187e188948226b4d883295f013bef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Misc/Skybox/City Day.mat using Guid(4187e188948226b4d883295f013bef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaa79672db80c8fefa7f4f1ad28f2c8') in 0.058942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Player/BikeBody_3.mat
+  artifactKey: Guid(d4d359af84d081b44bc51b5621f18539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Player/BikeBody_3.mat using Guid(d4d359af84d081b44bc51b5621f18539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98929b89f50341b9e2e88f0868ecf88e') in 0.016876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/GT-Car/Materials/Ai/CarBody_ai 1.mat
+  artifactKey: Guid(50bfc4373d54eda4b8794bb6fb040574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/GT-Car/Materials/Ai/CarBody_ai 1.mat using Guid(50bfc4373d54eda4b8794bb6fb040574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf76bdaeb0dbf4cf90b2665ee14ff6e1') in 0.019657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/face_color_map.mat
+  artifactKey: Guid(909a1869b80ac434b9052d1e8aa98c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/face_color_map.mat using Guid(909a1869b80ac434b9052d1e8aa98c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47afe75a2a2d3386bc3c076e8cb38162') in 0.071339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/GT-Car/Materials/Player/CarBody 2.mat
+  artifactKey: Guid(31de46ff7e137b240bc8f70c346226db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/GT-Car/Materials/Player/CarBody 2.mat using Guid(31de46ff7e137b240bc8f70c346226db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf38b58cfce00d9ea2d954decaf208c0') in 0.020412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 3.mat
+  artifactKey: Guid(00033743e25ad1d45b2d3c464cc8cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 3.mat using Guid(00033743e25ad1d45b2d3c464cc8cd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4212ecb1dcef5306b0bf29e209f9134b') in 0.016384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/RacingGameStarterKit/Source/Materials/Concrete_Wall.mat
+  artifactKey: Guid(3eb348bda274a754eb6d817acdf2111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Materials/Concrete_Wall.mat using Guid(3eb348bda274a754eb6d817acdf2111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d672172df29ddd34bc143e19ac31097') in 0.058076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/eyes_color_map.mat
+  artifactKey: Guid(5a61211467db89a488aa73bb75687b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Driver/Default/Materials/eyes_color_map.mat using Guid(5a61211467db89a488aa73bb75687b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666e4317dcfb7178f6b235640e0ff2f') in 0.025374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 1.mat
+  artifactKey: Guid(e25c88322378be6409fe3c860ab7356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 1.mat using Guid(e25c88322378be6409fe3c860ab7356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef550b2cf820cf308741316c2e726a26') in 0.017114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 2.mat
+  artifactKey: Guid(c6761cdb89b11824aa8ad064a83a08dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Models/Motorbike/Materials/Ai/BikeBody_Ai 2.mat using Guid(c6761cdb89b11824aa8ad064a83a08dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e4c11259c7e0435450b7a2e6bab856') in 0.016935 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

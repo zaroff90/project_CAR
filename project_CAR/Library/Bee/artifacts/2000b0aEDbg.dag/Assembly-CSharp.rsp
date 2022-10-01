@@ -376,6 +376,8 @@
 "Assets/RacingGameStarterKit/Scripts/Vehicle/Other/Skidmark.cs"
 "Assets/RacingGameStarterKit/Scripts/Vehicle/Other/SurfaceManager.cs"
 "Assets/RacingGameStarterKit/Scripts/Vehicle/Other/Wheels.cs"
+"Assets/Scripts/MusicPlayer.cs"
+"Assets/Scripts/Persistent.cs"
 -langversion:9.0
 
 /deterministic
