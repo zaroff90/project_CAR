@@ -378,6 +378,20 @@
 "Assets/RacingGameStarterKit/Scripts/Vehicle/Other/Wheels.cs"
 "Assets/Scripts/MusicPlayer.cs"
 "Assets/Scripts/Persistent.cs"
+"Assets/US Racing Cars/Art/Shaders/JMO Assets/MatCap Shaders/Demo/Assets/MC_AutoRotate.cs"
+"Assets/US Racing Cars/Art/Shaders/JMO Assets/MatCap Shaders/Demo/Assets/MC_SwitchTexture.cs"
+"Assets/US Racing Cars/Scripts/Configs/RS_CarsConfig.cs"
+"Assets/US Racing Cars/Scripts/Configs/RS_GameConfig.cs"
+"Assets/US Racing Cars/Scripts/Configs/RS_GameData.cs"
+"Assets/US Racing Cars/Scripts/Core/Controllers/RS_GarageController.cs"
+"Assets/US Racing Cars/Scripts/Core/Factories/RS_CarFactory.cs"
+"Assets/US Racing Cars/Scripts/Core/Loaders/RS_AssetsLoader.cs"
+"Assets/US Racing Cars/Scripts/Effects/RS_Rotate.cs"
+"Assets/US Racing Cars/Scripts/Effects/RS_VisualWheel.cs"
+"Assets/US Racing Cars/Scripts/Enums/RS_CarCreationMode.cs"
+"Assets/US Racing Cars/Scripts/Templates/RS_CarTemplate.cs"
+"Assets/US Racing Cars/Scripts/Utils/NonMonoSingleton.cs"
+"Assets/US Racing Cars/Scripts/Utils/PrefabAsyncLoader.cs"
 -langversion:9.0
 
 /deterministic

@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-56050
+57306
 Successfully changed project path to: /Users/bsmith/code/zaroff/project_CAR/project_CAR
 /Users/bsmith/code/zaroff/project_CAR/project_CAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/bsmith/code/zaroff/project_CAR/proj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 115.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 129.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,93 +70,93 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56171
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003034 seconds.
+Registered in 0.004657 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 113.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
+- Completed reload, in  0.961 seconds
 Domain Reload Profiling:
-	ReloadAssembly (896ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (962ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (589ms)
-			LoadAssemblies (167ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (148ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010877 seconds.
+Registered in 0.009229 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.450 seconds
+- Completed reload, in  1.663 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1451ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1664ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1193ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
+			SetupTypeCache (427ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (506ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (587ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (108.8 KB). Loaded Objects now: 3934.
-Memory consumption went from 253.9 MB to 253.8 MB.
-Total: 4.902144 ms (FindLiveObjects: 0.401248 ms CreateObjectMapping: 0.350840 ms MarkObjects: 3.965575 ms  DeleteObjects: 0.183352 ms)
+Unloading 27 unused Assets / (96.1 KB). Loaded Objects now: 3934.
+Memory consumption went from 254.6 MB to 254.5 MB.
+Total: 4.868625 ms (FindLiveObjects: 0.374790 ms CreateObjectMapping: 0.213243 ms MarkObjects: 4.090644 ms  DeleteObjects: 0.188966 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,3 +168,264 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143994.673118 seconds.
+  path: Assets/Touring Car Pack/Materials/Mond/M_Cockpit.mat
+  artifactKey: Guid(b75739e28a70501449b700caaa47357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Mond/M_Cockpit.mat using Guid(b75739e28a70501449b700caaa47357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e12306b4f168db3eb36e119354030d') in 0.382565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/RacingGameStarterKit/Source/Materials/RacerNameBG.mat
+  artifactKey: Guid(45fe41863548d3b45ac11499537c650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Materials/RacerNameBG.mat using Guid(45fe41863548d3b45ac11499537c650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61a7267e253ab4dd9104ef2ccdffca2') in 0.050757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Touring Car Pack/Materials/Pass/M_Carbody69.mat
+  artifactKey: Guid(253c331bc93f7f24a94dde27c78c5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Pass/M_Carbody69.mat using Guid(253c331bc93f7f24a94dde27c78c5bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf2fc4ee203b027fdc13c8756da4b63') in 0.021667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Racing Tracks/Green Highland/Materials/Track 02 E.mat
+  artifactKey: Guid(f7944dae08a2b5c4a8491f9e25904ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Green Highland/Materials/Track 02 E.mat using Guid(f7944dae08a2b5c4a8491f9e25904ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fa5adaefd52b61ea1960e49bd13152') in 0.086641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/RacingGameStarterKit/Source/Materials/Mountain_valley_side.mat
+  artifactKey: Guid(24c165702d2de4a41aa1a591a26be091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Materials/Mountain_valley_side.mat using Guid(24c165702d2de4a41aa1a591a26be091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f02a0d721b97a586c84fcd0d54aa2c1') in 0.036871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Touring Car Pack/Meshes/Pass_Cockpit.FBX
+  artifactKey: Guid(33b926df871d38d4b80297452b7b3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Meshes/Pass_Cockpit.FBX using Guid(33b926df871d38d4b80297452b7b3a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d8fd9b879515577368420a65589834') in 0.402980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Racing Tracks/Modern City/Materials/Track 01 D.mat
+  artifactKey: Guid(a9e30ba2028521546b1b647d25b654dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Modern City/Materials/Track 01 D.mat using Guid(a9e30ba2028521546b1b647d25b654dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eac39a4bc05abd6e2f3566035e928a') in 0.024556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Touring Car Pack/Materials/Pass/M_Carbody68.mat
+  artifactKey: Guid(a30cfaccedfaa8f429c9caaa0b770240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Pass/M_Carbody68.mat using Guid(a30cfaccedfaa8f429c9caaa0b770240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609da3d658258d03e2ba69e737e6cfc5') in 0.019301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Touring Car Pack/Materials/Mond/M_Banner.mat
+  artifactKey: Guid(a791fea7fe25f3845ae4debdd2eef74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Mond/M_Banner.mat using Guid(a791fea7fe25f3845ae4debdd2eef74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fd9926bbba4b287e87191f9f5a5c0d') in 0.030816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Engine.mat
+  artifactKey: Guid(d3b7dcf267b0eab43afdefb19c04bc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Engine.mat using Guid(d3b7dcf267b0eab43afdefb19c04bc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd278f7bf210490306bf85af28b7e3cde') in 0.024203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Seat.mat
+  artifactKey: Guid(3589870149b2c2344b8028d452b3c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Seat.mat using Guid(3589870149b2c2344b8028d452b3c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94a44a200b984e7f594c5d8016cab70') in 0.019023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Carbody29.mat
+  artifactKey: Guid(ae05ca240154cce47a70163ff3928dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Carbody29.mat using Guid(ae05ca240154cce47a70163ff3928dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c451979fbbbb23d1e61d8af6e9bd699') in 0.014347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_caliper.mat
+  artifactKey: Guid(45d7ed4ca5eba5042b3195a296aaaf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_caliper.mat using Guid(45d7ed4ca5eba5042b3195a296aaaf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5b186bb42ca48df7455e8f0ced25fa') in 0.009366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Windows.mat
+  artifactKey: Guid(df0245b804c6ac547bdb5f0ccc005e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Windows.mat using Guid(df0245b804c6ac547bdb5f0ccc005e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afd583709ae896fb896ff92fc65ce7f') in 0.012472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/RacingGameStarterKit/Source/Materials/SpawnpointDecal.mat
+  artifactKey: Guid(6f920c155ace4fd44ab6a2567c119b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Materials/SpawnpointDecal.mat using Guid(6f920c155ace4fd44ab6a2567c119b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c26c02364f16eaa8d35b2142c21fb0') in 0.015485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Fuel.mat
+  artifactKey: Guid(339da4084766cd140b8a1b68373cfa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Fuel.mat using Guid(339da4084766cd140b8a1b68373cfa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1263a06984933baf341c148677385370') in 0.009597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Wheel.mat
+  artifactKey: Guid(76db61fa1ad0c0c4585bf3af596ab0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Wheel.mat using Guid(76db61fa1ad0c0c4585bf3af596ab0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60e12d640a4aece5b6182eb7408810') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Banner.mat
+  artifactKey: Guid(d1d330ff0a8604b4b9aa220d28b7b946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Banner.mat using Guid(d1d330ff0a8604b4b9aa220d28b7b946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7db9e85199962c1fac3dabca92d488') in 0.014585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Touring Car Pack/Materials/Mond/M_Carbody07.mat
+  artifactKey: Guid(24038f458ed58c04e8931f7eea4ce8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Mond/M_Carbody07.mat using Guid(24038f458ed58c04e8931f7eea4ce8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2316bba49e48850c40aea2df16ee1d0') in 0.016324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Touring Car Pack/Materials/Pass/M_Carbody11.mat
+  artifactKey: Guid(462c10c8f5fdf3e49939adb3728fd91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Pass/M_Carbody11.mat using Guid(462c10c8f5fdf3e49939adb3728fd91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae9f82b6e6c64c8bb3b33c78712f1be') in 0.019433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/RacingGameStarterKit/Source/Materials/Mountain_valley_shoulders.mat
+  artifactKey: Guid(f8c20a921551c3d4097d5220ea463858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Source/Materials/Mountain_valley_shoulders.mat using Guid(f8c20a921551c3d4097d5220ea463858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ef81d5ab4a8c1dc5037b8fab4648d7') in 0.012104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Carbody260.mat
+  artifactKey: Guid(d8cc7b79a04175b40b0f57a1f86cc01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Carbody260.mat using Guid(d8cc7b79a04175b40b0f57a1f86cc01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fbbd017dd9bdef6ad5c4167926b3b1') in 0.021856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Touring Car Pack/Materials/Pass/M_Windows.mat
+  artifactKey: Guid(f277329ce020e2943a244cc91b4fee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Pass/M_Windows.mat using Guid(f277329ce020e2943a244cc91b4fee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfe8a5e0f29985b04a9807c2ede2e61') in 0.019414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Carbody77.mat
+  artifactKey: Guid(0cd30bb06738ba942847270b75d6388e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Carbody77.mat using Guid(0cd30bb06738ba942847270b75d6388e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b740ecc2b47712f45246f2981b253a8') in 0.016275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Cockpit.mat
+  artifactKey: Guid(205ae9af72229a94f9cece2d74cd5ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Cockpit.mat using Guid(205ae9af72229a94f9cece2d74cd5ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f9fa7cffad3b46bcc8d9e0c4b9b324') in 0.037316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Touring Car Pack/Materials/Mond/M_Carbody90.mat
+  artifactKey: Guid(8db11f2cb6c59e44d9635bca7e64e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Mond/M_Carbody90.mat using Guid(8db11f2cb6c59e44d9635bca7e64e5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833bc47721a62b21950ea53538b502ef') in 0.016895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Carbody22.mat
+  artifactKey: Guid(ad770781c4d94654baec7c879c0a6712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Carbody22.mat using Guid(ad770781c4d94654baec7c879c0a6712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52d3b40b683ef4d57b8830ca0c276db') in 0.025317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Wheel.mat
+  artifactKey: Guid(705aae4bbc4e6564fafe5a240c60086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Wheel.mat using Guid(705aae4bbc4e6564fafe5a240c60086d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b781df1b62190cd20b4f6b118d8a38b') in 0.025790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Billboard/Materials/legs.mat
+  artifactKey: Guid(f7d8c0abc21b5da4791d4f37ad562036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billboard/Materials/legs.mat using Guid(f7d8c0abc21b5da4791d4f37ad562036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546d2264ff6eedef79a6453f7bf06f37') in 0.055379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Dash.mat
+  artifactKey: Guid(c5be0b18adf7eb94f9d612923ae1e65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Dash.mat using Guid(c5be0b18adf7eb94f9d612923ae1e65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eada7b5727603df0167861d610b64c') in 0.071776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Carbody130.mat
+  artifactKey: Guid(5fbcae4d97fc2d04fac971b68503708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Carbody130.mat using Guid(5fbcae4d97fc2d04fac971b68503708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab7afb6d31331ad09e972d439bd092a') in 0.017685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_sidewall.mat
+  artifactKey: Guid(294ca01b77b69a64da30870f51d9cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_sidewall.mat using Guid(294ca01b77b69a64da30870f51d9cd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c5818b527e85bc90a822e98a542281') in 0.013113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Racing Tracks/Classical City/Materials/Track 04 D.mat
+  artifactKey: Guid(4e12602477623104da9885adee304f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Classical City/Materials/Track 04 D.mat using Guid(4e12602477623104da9885adee304f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627afcbd4cf7452b5f5ad506c0714a9c') in 0.026011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Racing Tracks/Misc/Skybox/Hills Night.mat
+  artifactKey: Guid(cb6e59860c5e60d409f357cd62b98d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Misc/Skybox/Hills Night.mat using Guid(cb6e59860c5e60d409f357cd62b98d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04baf9904231bd34fc9d3aa4147bc400') in 0.073195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Racing Tracks/Modern City/Materials/Track 01 B.mat
+  artifactKey: Guid(087ecf6a40734e44088e61169e98a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Modern City/Materials/Track 01 B.mat using Guid(087ecf6a40734e44088e61169e98a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04709b1dbdece3abc2a89d968ba0eca') in 0.024190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Racing Tracks/Classical City/Materials/Track 04 C.mat
+  artifactKey: Guid(3b7c898673b0b5846bb394b61958fdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Classical City/Materials/Track 04 C.mat using Guid(3b7c898673b0b5846bb394b61958fdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107c313b10de3c2e65ee665b1a098ab2') in 0.159384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Racing Tracks/Green Highland/Materials/Track 02 C.mat
+  artifactKey: Guid(2d227a23ca935ed4a8a3c2ee3b280e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Tracks/Green Highland/Materials/Track 02 C.mat using Guid(2d227a23ca935ed4a8a3c2ee3b280e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97432c27a073b0e04784e81d39d3e7a8') in 0.014284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Touring Car Pack/Materials/Pass/M_Opticas_Del.mat
+  artifactKey: Guid(8bf9006767613be4aa8c7663cc7b22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Pass/M_Opticas_Del.mat using Guid(8bf9006767613be4aa8c7663cc7b22ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17cbf6eea051018f9065f6ef4147617') in 0.014007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Windows.mat
+  artifactKey: Guid(7cfa47cefa14fd4468359778006757b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Windows.mat using Guid(7cfa47cefa14fd4468359778006757b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ffccf9f2a16ea381a393a3f809f5fb') in 0.020491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Touring Car Pack/Materials/Common/M_Oiltemp.mat
+  artifactKey: Guid(0968d68018e38cb4db4776c40a40e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Common/M_Oiltemp.mat using Guid(0968d68018e38cb4db4776c40a40e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600009d6d0bd8d971c801c71569ab189') in 0.022825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Opticas.mat
+  artifactKey: Guid(d89cfd0205f420a419f243fcd3e605f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Opticas.mat using Guid(d89cfd0205f420a419f243fcd3e605f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652674eeb95ffecac1670dfa3e57cbde') in 0.029220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Touring Car Pack/Materials/Merc/M_Interior.mat
+  artifactKey: Guid(cb435f727731382488f59467234181bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Merc/M_Interior.mat using Guid(cb435f727731382488f59467234181bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1e9a954701ef5788b1e5f5143d646f') in 0.013136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Touring Car Pack/Materials/Chev/M_Interior.mat
+  artifactKey: Guid(eda3a7d8c7943554da3ccf4933f17a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Touring Car Pack/Materials/Chev/M_Interior.mat using Guid(eda3a7d8c7943554da3ccf4933f17a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3df4b0f7c179b6effa4fa7d7cd455e') in 0.033058 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
