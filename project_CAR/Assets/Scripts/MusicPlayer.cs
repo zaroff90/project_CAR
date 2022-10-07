@@ -17,18 +17,24 @@ public class MusicPlayer : MonoBehaviour
 
     void Start()
     {
-        sound = GameObject.Find("MUSICPLAYER").GetComponent<AudioSource>();
-        anim = this.GetComponent<Animator>();
+        if (GameObject.Find("MUSICPLAYER") != null)
+        {
+            sound = GameObject.Find("MUSICPLAYER").GetComponent<AudioSource>();
+            anim = this.GetComponent<Animator>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!sound.isPlaying)
+        if (sound != null)
         {
-            if (tracks.Length > 1)
+            if (!sound.isPlaying)
             {
-                OnNext();
+                if (tracks.Length > 1)
+                {
+                    OnNext();
+                }
             }
         }
     }

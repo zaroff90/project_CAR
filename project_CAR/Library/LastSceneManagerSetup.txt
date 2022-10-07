@@ -1,11 +1,11 @@
 sceneSetups:
 - path: Assets/Scenes/Title.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
-- path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarMenu.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarMenu.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Racing Tracks/Scenes/Classical City/City.unity
   isLoaded: 0
@@ -16,10 +16,6 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Racing Tracks/Scenes/Modern City/Downtown.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarRace.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0

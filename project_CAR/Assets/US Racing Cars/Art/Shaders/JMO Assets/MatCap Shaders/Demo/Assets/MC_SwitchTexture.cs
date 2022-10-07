@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 using System.Collections;
 
@@ -45,3 +46,4 @@ public class MC_SwitchTexture : MonoBehaviour
 		GetComponent<GUITexture>().texture = textures[index];
 	}
 }
+*/

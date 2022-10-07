@@ -4,9 +4,12 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
+using Photon.Pun;
+
+
 namespace RGSK
 {
-    public class PlayerControl : MonoBehaviour
+    public class PlayerControl : MonoBehaviourPun
     {
         public enum InputTypes { Desktop, Mobile, Automatic }
         public enum MobileSteerType { TiltToSteer, TouchSteer }
@@ -25,6 +28,10 @@ namespace RGSK
 
         void Awake()
         {
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             if (GetComponent<Car_Controller>())
                 car_controller = GetComponent<Car_Controller>();
 
@@ -34,7 +41,10 @@ namespace RGSK
 
         void Start()
         {
-
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             if (!InputManager.instance)
             {
                 Debug.LogError("No Input Manager Found! Please Create an Input Manager by going to Window/RacingGameStarterKit/RaceComponents");
@@ -55,6 +65,10 @@ namespace RGSK
 
         void Update()
         {
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             switch (inputType)
             {
                 case InputTypes.Desktop:
@@ -77,7 +91,10 @@ namespace RGSK
 
         void DesktopControl()
         {
-
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             switch (InputManager.instance.inputDevice)
             {
                 case InputManager.InputDevice.Keyboard:
@@ -138,7 +155,10 @@ namespace RGSK
 
         void MobileControl()
         {
-
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             float steer = 0;
 
             if (mobileSteerType == MobileSteerType.TiltToSteer)
@@ -166,6 +186,10 @@ namespace RGSK
 
         void SendInputs(float accel, float brake, float steer, float handbrake, bool nitro)
         {
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             if (car_controller)
             {
                 car_controller.motorInput = (brake <= 0) ? accel : 0;
@@ -186,6 +210,10 @@ namespace RGSK
 
         public void Respawn()
         {
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             if (RaceManager.instance)
                 RaceManager.instance.RespawnRacer(transform, GetComponent<Statistics>().lastPassedNode, 3.0f);
         }

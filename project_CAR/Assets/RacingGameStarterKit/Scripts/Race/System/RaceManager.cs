@@ -11,7 +11,7 @@ namespace RGSK
     {
 
         public static RaceManager instance;
-
+        public static bool onlineMode=true;
         #region enum
         public enum RaceType { Circuit, LapKnockout, TimeTrial, SpeedTrap, Checkpoints, Elimination, Drift }
         public enum RaceState { StartingGrid, Racing, Paused, Complete, KnockedOut, Replay }
@@ -103,6 +103,7 @@ namespace RGSK
             //create an instance
             instance = this;
 
+            playerCar = (GameObject)Resources.Load(global.playerCar);
             //load race prefernces from an active data loader
             if (loadRacePreferences)
             {

@@ -10,6 +10,9 @@ namespace RGSK
 {
     public class MenuManager : MonoBehaviour
     {
+        public GameObject OnlinePlay;
+        public GameObject NameField;
+
         [System.Serializable]
         public class MenuVehicle
         {
@@ -193,6 +196,15 @@ namespace RGSK
             selectedColorID = -1;
             selectedRimID = -1;
             selectedUpgradeID = -1;
+
+            if (RaceManager.onlineMode)
+            {
+                OnlinePlay.SetActive(true);
+            }
+            else
+            {
+                OnlinePlay.SetActive(false);
+            }
         }
 
 
@@ -503,6 +515,8 @@ namespace RGSK
 
             //Last selected vehicle
             if (PlayerPrefs.HasKey("SelectedVehicle")) vehicleIndex = PlayerPrefs.GetInt("SelectedVehicle");
+            global.playerCar = menuVehicles[vehicleIndex].resourceName;
+
 
             //Master Vol
             if (masterVolume) masterVolume.value = (PlayerPrefs.HasKey("MasterVolume")) ? PlayerPrefs.GetFloat("MasterVolume") : 1;
@@ -928,6 +942,7 @@ namespace RGSK
         public void ChooseVehicle()
         {
             PlayerPrefs.SetInt("SelectedVehicle", vehicleIndex);
+            global.playerCar = menuVehicles[vehicleIndex].resourceName;
             Back();
         }
 
