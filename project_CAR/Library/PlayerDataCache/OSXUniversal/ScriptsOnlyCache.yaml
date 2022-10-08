@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - RGSK.Motorbike_Controller
     - RGSK.OpponentControl
     - RGSK.OrbitAroundCamera
+    - RGSK.PhotonCustomFields
     - RGSK.PlayerCamera
     - RGSK.PlayerControl
     - RGSK.ProgressTracker
@@ -75,8 +76,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -340,8 +343,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6882}
     - Class: 114
-      Script: {instanceID: 7026}
-    - Class: 114
       Script: {instanceID: 7498}
     - Class: 114
       Script: {instanceID: 7590}
@@ -519,6 +520,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7964}
     - Class: 114
+      Script: {instanceID: 8030}
+    - Class: 114
       Script: {instanceID: 8078}
     - Class: 114
       Script: {instanceID: 8100}
@@ -530,6 +533,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8594}
     - Class: 114
       Script: {instanceID: 8734}
+    - Class: 114
+      Script: {instanceID: 1105006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -690,6 +695,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7964}
     - Class: 114
+      Script: {instanceID: 8030}
+    - Class: 114
       Script: {instanceID: 8078}
     - Class: 114
       Script: {instanceID: 8100}
@@ -701,6 +708,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8594}
     - Class: 114
       Script: {instanceID: 8734}
+    - Class: 114
+      Script: {instanceID: 1105006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1037,6 +1046,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8734}
     - Class: 114
       Script: {instanceID: 8902}
+    - Class: 114
+      Script: {instanceID: 1105006}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1554,7 +1565,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 8067336a4e6401025a29cbb51673a676
+      Hash: 1445e502b2841337bdf62923064ddc93
     assemblyName: Assembly-CSharp.dll
     namespaceName: RGSK
     className: Launcher
@@ -2514,7 +2525,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 7706e61bedecf7d8a9ff865aff75034a
+      Hash: 873dd75962c216ef66e4d91ca57daf33
     assemblyName: Assembly-CSharp.dll
     namespaceName: Com.MyCompany.MyGame
     className: OnlineGameManager
@@ -3082,6 +3093,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 44aa1b42a967cd3d16a4ab76032b5aeb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RGSK
+    className: GuestController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RGSK
+    className: PhotonCustomFields
   platform: 2
   scenePathNames:
   - Assets/Scenes/Title.unity

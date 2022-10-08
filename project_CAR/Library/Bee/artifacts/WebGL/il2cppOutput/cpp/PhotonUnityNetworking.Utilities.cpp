@@ -2763,6 +2763,8 @@ struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373  : public RoomInfo_t4C5919
 	bool ___U3CPublishUserIdU3Ek__BackingField_19;
 	// System.Boolean Photon.Realtime.Room::<DeleteNullProperties>k__BackingField
 	bool ___U3CDeleteNullPropertiesU3Ek__BackingField_20;
+	// System.Int32 Photon.Realtime.Room::arena
+	int32_t ___arena_21;
 };
 
 // ExitGames.Client.Photon.SendOptions

@@ -1869,6 +1869,8 @@ struct Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373  : public RoomInfo_t4C5919
 	bool ___U3CPublishUserIdU3Ek__BackingField_19;
 	// System.Boolean Photon.Realtime.Room::<DeleteNullProperties>k__BackingField
 	bool ___U3CDeleteNullPropertiesU3Ek__BackingField_20;
+	// System.Int32 Photon.Realtime.Room::arena
+	int32_t ___arena_21;
 };
 
 // System.Single
@@ -12086,6 +12088,35 @@ IL_0075:
 		// }
 		String_t* L_19 = V_0;
 		return L_19;
+	}
+}
+// System.Int32 Photon.Realtime.Room::get_Arena()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Room_get_Arena_mFB7166D828835D0076CA6F3CD8C83024C0BB4544 (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// return arena;
+		int32_t L_0 = __this->___arena_21;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// }
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void Photon.Realtime.Room::set_Arena(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room_set_Arena_m5BCB60F6EABE331A18478E11CAB7F976E2CF605C (Room_t9CCA5C06B8CE2E5E1EE24AD17360F218C4E36373* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// arena = value;
+		int32_t L_0 = ___value0;
+		__this->___arena_21 = L_0;
+		// }
+		return;
 	}
 }
 #ifdef __clang__

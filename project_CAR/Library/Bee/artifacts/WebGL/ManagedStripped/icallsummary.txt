@@ -260,6 +260,7 @@ UnityEngine.GameObject::TryGetComponentInternal
 UnityEngine.GameObject::CreatePrimitive
 UnityEngine.GameObject::Find
 UnityEngine.GameObject::FindGameObjectWithTag
+UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform
 UnityEngine.Gizmos::DrawLine_Injected
 UnityEngine.Gizmos::DrawWireCube_Injected

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using Photon.Pun;
 using Photon.Realtime;
 using System.Linq;
@@ -27,6 +28,10 @@ namespace RGSK
         public GameObject roomPanel;
         public GameObject playerEntry;
         public int arena;
+        public int time=10;
+        public GameObject timePanel;
+
+        public bool isGuest=false;
         #endregion
 
         #region Private Fields
@@ -120,6 +125,9 @@ namespace RGSK
         public override void OnJoinedRoom()
         {
             roomPanel.SetActive(true);
+            Hashtable hashCar = new Hashtable();
+            hashCar.Add("Car", global.playerCar);
+            PhotonNetwork.LocalPlayer.SetCustomProperties(hashCar);
             Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
             // #Critical: We only load if we are the first player, else we rely on `PhotonNetwork.AutomaticallySyncScene` to sync our instance scene.
 
@@ -135,12 +143,16 @@ namespace RGSK
 
                 PhotonNetwork.CurrentRoom.Arena = randomNumber;
                 roomPanel.transform.GetChild(0).GetChild(randomNumber).gameObject.SetActive(true);
+
+                Hashtable hashTime = new Hashtable();
+                hash.Add("Time", 10); PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
             }
             else
             {
                 arena = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
                 roomPanel.transform.GetChild(0).GetChild(arena).gameObject.SetActive(true);
-
+                isGuest = true;
+                timePanel.SetActive(true);
             }
 
             GameObject[] tags = GameObject.FindGameObjectsWithTag("GamerTag");
@@ -149,14 +161,23 @@ namespace RGSK
                 Destroy(tags[i]);
             }
 
-            for (int i = 0; i < PhotonNetwork.CurrentRoom.PlayerCount; i++)
+            for (int i = 1; i <= PhotonNetwork.CurrentRoom.PlayerCount; i++)
             {
                 GameObject entry = Instantiate(playerEntry);
                 entry.transform.parent = playerEntry.transform.parent;
-                entry.transform.GetChild(1).GetComponent<Text>().text = PhotonNetwork.CurrentRoom.Players.ElementAt(i).Value.ToString();
+                entry.transform.GetChild(1).GetComponent<Text>().text = (string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + i)).NickName;
                 entry.SetActive(true);
             }
         }
         #endregion
+        private void Update()
+        {
+            if (isGuest)
+            {
+                time = (int)PhotonNetwork.CurrentRoom.CustomProperties["Time"];
+                if (time == 0) return;
+                timePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Race Starts In :" + time;
+            }
+        }
     }
 }

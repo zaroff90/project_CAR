@@ -3,11 +3,14 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine.SceneManagement;
-
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 namespace RGSK
 {
-    public class RaceManager : MonoBehaviour
+    public class RaceManager : MonoBehaviourPunCallbacks
     {
 
         public static RaceManager instance;
@@ -103,7 +106,7 @@ namespace RGSK
             //create an instance
             instance = this;
 
-            playerCar = (GameObject)Resources.Load(global.playerCar);
+            
             //load race prefernces from an active data loader
             if (loadRacePreferences)
             {
@@ -116,6 +119,28 @@ namespace RGSK
                 {
                     Debug.LogWarning("Add a DataLoader component to your scene to load race preferences!");
                 }
+            }
+
+            if (PhotonNetwork.IsConnected)
+            {
+                playerCar = (GameObject)Resources.Load((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + 1)).CustomProperties["Car"]);
+                _playerSpawnPosition = PlayerSpawnPosition.Selected;
+                _aiSpawnType = AISpawnType.Order;
+                allowDuplicateRacers = false;
+                opponentCars = new List<GameObject>();
+                totalRacers = PhotonNetwork.CurrentRoom.PlayerCount;
+                _playerSpawnPosition = PlayerSpawnPosition.Selected;
+                playerStartRank = 1;
+                showStartingGrid = false;
+
+                for (int i = 2; i <= PhotonNetwork.CurrentRoom.PlayerCount; i++)
+                {
+                    opponentCars.Add((GameObject)Resources.Load((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + i)).CustomProperties["Car"]));
+                }
+            }
+            else
+            {
+                playerCar = (GameObject)Resources.Load(global.playerCar);
             }
         }
 
@@ -235,6 +260,7 @@ namespace RGSK
                         if (allowDuplicateRacers)
                         {
                             Instantiate(opponentCars[Random.Range(0, opponentCars.Count)], spawnpoints[i].position, spawnpoints[i].rotation);
+
                         }
                         else {
 
@@ -253,9 +279,31 @@ namespace RGSK
                         int spawnIndex = 0;
 
                         if (spawnIndex > opponentCars.Count) spawnIndex = opponentCars.Count - 1;
+                        GameObject rival = null;
+                        if (PhotonNetwork.IsConnected)
+                        {
+                            if (PhotonNetwork.LocalPlayer.ActorNumber== (spawnIndex + 2))
+                            {
+                                rival = PhotonNetwork.Instantiate((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).CustomProperties["Car"], spawnpoints[i].position, spawnpoints[i].rotation);
 
-                        Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
+                                Hashtable hashRole = new Hashtable();
+                                hashRole.Add("Role", "Opponent");
+                                PhotonNetwork.LocalPlayer.SetCustomProperties(hashRole);
 
+                                /*rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));*/
+                                rival.GetComponent<Statistics>().name = PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).NickName;
+                            }
+                            if (PhotonNetwork.IsMasterClient)
+                            {
+
+                            }
+                            
+                        }
+                        else
+                        {
+                            rival = Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
+
+                        }
                         opponentCars.RemoveAt(spawnIndex);
                     }
                 }
@@ -264,8 +312,29 @@ namespace RGSK
                     //Spawn the player
 
                     Transform spawnPos = (_raceType != RaceType.TimeTrial) ? spawnpoints[i] : timeTrialStartPoint;
+                    GameObject player = null;
+                    if (PhotonNetwork.IsConnected)
+                    {
 
-                    GameObject player = (GameObject)Instantiate(playerCar, spawnPos.position, spawnPos.rotation);
+                        if (PhotonNetwork.IsMasterClient)
+                        {
+                            player = PhotonNetwork.Instantiate((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + 1)).CustomProperties["Car"], spawnPos.position, spawnPos.rotation);
+                            player.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(01));
+
+                            Hashtable hashRole = new Hashtable();
+                            hashRole.Add("Role", "Player");
+                            PhotonNetwork.LocalPlayer.SetCustomProperties(hashRole);
+
+                        }
+
+                        
+                    }
+                    else
+                    {
+                        player = (GameObject)Instantiate(playerCar, spawnPos.position, spawnPos.rotation);
+
+                    }
+
 
                     switch (_raceType)
                     {
@@ -284,6 +353,11 @@ namespace RGSK
                 }
             }
 
+            StartCoroutine(TimeRacers());
+        }
+        public IEnumerator TimeRacers()
+        {
+            yield return new WaitForSeconds(1);
             //Set racer names, pointers and handle countdown after spawning the racers
             RankManager.instance.RefreshRacerCount();
             RaceUI.instance.RefreshInRaceStandings();
@@ -300,11 +374,9 @@ namespace RGSK
                 CameraManager.instance.ActivateStartingGridCamera();
             }
         }
-
         void SetRacerPreferences()
         {
             Statistics[] racers = GameObject.FindObjectsOfType(typeof(Statistics)) as Statistics[];
-
             //Load opponent names if they havent already been loaded
             if (opponentNamesList.Count <= 0)
             {
@@ -313,8 +385,8 @@ namespace RGSK
 
             for (int i = 0; i < racers.Length; i++)
             {
-
-                racers[i].name = ReplaceString(racers[i].name, "(Clone)");
+                if (!PhotonNetwork.IsConnected)
+                    racers[i].name = ReplaceString(racers[i].name, "(Clone)");
 
                 if (racers[i].gameObject.tag == "Player")
                 {
@@ -322,7 +394,8 @@ namespace RGSK
                     //Player Name & Player Minimap Pointer
                     if (assignPlayerName)
                     {
-                        racers[i].racerDetails.racerName = playerName;
+                        if (!PhotonNetwork.IsConnected)
+                            racers[i].racerDetails.racerName = playerName;
                     }
 
                     if (showRacerPointers && playerPointer)
@@ -340,7 +413,8 @@ namespace RGSK
 
                         if (nameIndex > opponentNamesList.Count) nameIndex = opponentNamesList.Count - 1;
 
-                        racers[i].racerDetails.racerName = opponentNamesList[nameIndex].ToString();
+                        if (!PhotonNetwork.IsConnected)
+                            racers[i].racerDetails.racerName = opponentNamesList[nameIndex].ToString();
 
                         opponentNamesList.RemoveAt(nameIndex);
                     }

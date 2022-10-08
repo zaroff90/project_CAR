@@ -5,10 +5,12 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 
 using Photon.Pun;
 using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 
 namespace Com.MyCompany.MyGame
@@ -17,6 +19,8 @@ namespace Com.MyCompany.MyGame
     {
         public GameObject playerEntry;
         private GameObject entry;
+        public GameObject timePanel;
+        public int time=10;
         #region Photon Callbacks
 
 
@@ -43,7 +47,11 @@ namespace Com.MyCompany.MyGame
             }
             Debug.LogFormat("PhotonNetwork : Loading Level : {0}", PhotonNetwork.CurrentRoom.PlayerCount);
             //PhotonNetwork.LoadLevel("Room for " + PhotonNetwork.CurrentRoom.PlayerCount);
-            PhotonNetwork.LoadLevel("City");
+            int arena = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
+            if (arena == 1) PhotonNetwork.LoadLevel("City");
+            if (arena == 2) PhotonNetwork.LoadLevel("Greens");
+            if (arena == 3) PhotonNetwork.LoadLevel("Downtown");
+
         }
 
 
@@ -70,9 +78,14 @@ namespace Com.MyCompany.MyGame
             if (PhotonNetwork.IsMasterClient)
             {
                 Debug.LogFormat("OnPlayerEnteredRoom IsMasterClient {0}", PhotonNetwork.IsMasterClient); // called before OnPlayerLeftRoom
-
-
-                //LoadArena();
+                if (time == 10)
+                {
+                    Hashtable hash = new Hashtable();
+                    hash.Add("Time", time);
+                    PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+                    timePanel.SetActive(true);
+                    StartCoroutine(timeStart());
+                }
             }
             GameObject[] tags = GameObject.FindGameObjectsWithTag("GamerTag");
             for (int i = 0; i < tags.Length; i++)
@@ -80,11 +93,11 @@ namespace Com.MyCompany.MyGame
                 Destroy(tags[i]);
             }
 
-            for (int i = 0; i <= PhotonNetwork.CurrentRoom.PlayerCount; i++)
+            for (int i = 1; i <= PhotonNetwork.CurrentRoom.PlayerCount; i++)
             {
                 GameObject entry = Instantiate(playerEntry);
                 entry.transform.parent = playerEntry.transform.parent;
-                entry.transform.GetChild(1).GetComponent<Text>().text = PhotonNetwork.CurrentRoom.Players.ElementAt(i).Value.ToString();
+                entry.transform.GetChild(1).GetComponent<Text>().text = (string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + i)).NickName;
                 entry.SetActive(true);
             }
         }
@@ -98,13 +111,23 @@ namespace Com.MyCompany.MyGame
             if (PhotonNetwork.IsMasterClient)
             {
                 Debug.LogFormat("OnPlayerLeftRoom IsMasterClient {0}", PhotonNetwork.IsMasterClient); // called before OnPlayerLeftRoom
-
-
-                LoadArena();
             }
         }
 
-
+        public IEnumerator timeStart()
+        {
+            if (time == 0)
+            {
+                LoadArena();
+                yield break;
+            }
+            timePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Race Starts In :" + time;
+            yield return new WaitForSeconds(1);
+            time--;
+            Hashtable hash = new Hashtable();
+            hash.Add("Time", time); PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+            StartCoroutine(timeStart());
+        }
         #endregion
     }
 }

@@ -10,8 +10,9 @@ namespace RGSK
         public Button btnSingle;
         public Button btnMulti;
 
-        public static string playerCar;
+        public static string playerCar = "Camera_Ai 1";
         public static List<string> opponentCars = new List<string>();
+
 
 
         void Start()

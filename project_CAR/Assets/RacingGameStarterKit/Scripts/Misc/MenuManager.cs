@@ -514,7 +514,8 @@ namespace RGSK
             PlayerData.LoadCurrency();
 
             //Last selected vehicle
-            if (PlayerPrefs.HasKey("SelectedVehicle")) vehicleIndex = PlayerPrefs.GetInt("SelectedVehicle");
+            if (PlayerPrefs.HasKey("SelectedVehicle")) { vehicleIndex = PlayerPrefs.GetInt("SelectedVehicle"); }
+            else { vehicleIndex = 0; }
             global.playerCar = menuVehicles[vehicleIndex].resourceName;
 
 

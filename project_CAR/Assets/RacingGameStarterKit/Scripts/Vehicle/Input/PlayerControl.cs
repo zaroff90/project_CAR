@@ -28,20 +28,20 @@ namespace RGSK
 
         void Awake()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
             if (GetComponent<Car_Controller>())
-                car_controller = GetComponent<Car_Controller>();
+                car_controller = this.GetComponent<Car_Controller>();
 
             if (GetComponent<Motorbike_Controller>())
-                bike_controller = GetComponent<Motorbike_Controller>();
+                bike_controller = this.GetComponent<Motorbike_Controller>();
         }
 
         void Start()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
@@ -65,7 +65,7 @@ namespace RGSK
 
         void Update()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
@@ -91,7 +91,7 @@ namespace RGSK
 
         void DesktopControl()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
@@ -155,7 +155,7 @@ namespace RGSK
 
         void MobileControl()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
@@ -186,7 +186,7 @@ namespace RGSK
 
         void SendInputs(float accel, float brake, float steer, float handbrake, bool nitro)
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
@@ -210,7 +210,7 @@ namespace RGSK
 
         public void Respawn()
         {
-            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }

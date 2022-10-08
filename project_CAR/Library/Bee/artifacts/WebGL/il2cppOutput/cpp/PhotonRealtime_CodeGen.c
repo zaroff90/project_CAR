@@ -913,153 +913,157 @@ extern void Room_SetExpectedUsers_m6A498A4381E7217249023D27D29DADB71C5E4EE1 (voi
 extern void Room_ToString_m66F32FAC2CB0523E8309691F4E5A50AF4849FBCD (void);
 // 0x000001D0 System.String Photon.Realtime.Room::ToStringFull()
 extern void Room_ToStringFull_mC592523E5F5327D78E30D24C6224BC4DA50F6E3D (void);
-// 0x000001D1 ExitGames.Client.Photon.Hashtable Photon.Realtime.RoomInfo::get_CustomProperties()
+// 0x000001D1 System.Int32 Photon.Realtime.Room::get_Arena()
+extern void Room_get_Arena_mFB7166D828835D0076CA6F3CD8C83024C0BB4544 (void);
+// 0x000001D2 System.Void Photon.Realtime.Room::set_Arena(System.Int32)
+extern void Room_set_Arena_m5BCB60F6EABE331A18478E11CAB7F976E2CF605C (void);
+// 0x000001D3 ExitGames.Client.Photon.Hashtable Photon.Realtime.RoomInfo::get_CustomProperties()
 extern void RoomInfo_get_CustomProperties_mE54DDDE221FC51475970867611765A4205AFD422 (void);
-// 0x000001D2 System.String Photon.Realtime.RoomInfo::get_Name()
+// 0x000001D4 System.String Photon.Realtime.RoomInfo::get_Name()
 extern void RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF (void);
-// 0x000001D3 System.Int32 Photon.Realtime.RoomInfo::get_PlayerCount()
+// 0x000001D5 System.Int32 Photon.Realtime.RoomInfo::get_PlayerCount()
 extern void RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029 (void);
-// 0x000001D4 System.Void Photon.Realtime.RoomInfo::set_PlayerCount(System.Int32)
+// 0x000001D6 System.Void Photon.Realtime.RoomInfo::set_PlayerCount(System.Int32)
 extern void RoomInfo_set_PlayerCount_m60E2655747392B753F507AF760FD5F1CE2C25B02 (void);
-// 0x000001D5 System.Byte Photon.Realtime.RoomInfo::get_MaxPlayers()
+// 0x000001D7 System.Byte Photon.Realtime.RoomInfo::get_MaxPlayers()
 extern void RoomInfo_get_MaxPlayers_mA59AFE46C3C2CB64D2DC7F6DB200187913DDAF24 (void);
-// 0x000001D6 System.Boolean Photon.Realtime.RoomInfo::get_IsOpen()
+// 0x000001D8 System.Boolean Photon.Realtime.RoomInfo::get_IsOpen()
 extern void RoomInfo_get_IsOpen_m9ED1B11B219CC568D44FAEB8BE79276CC0066FBA (void);
-// 0x000001D7 System.Boolean Photon.Realtime.RoomInfo::get_IsVisible()
+// 0x000001D9 System.Boolean Photon.Realtime.RoomInfo::get_IsVisible()
 extern void RoomInfo_get_IsVisible_m395C48045B9EE47BC9246AFDC378694B5E47F7CA (void);
-// 0x000001D8 System.Void Photon.Realtime.RoomInfo::.ctor(System.String,ExitGames.Client.Photon.Hashtable)
+// 0x000001DA System.Void Photon.Realtime.RoomInfo::.ctor(System.String,ExitGames.Client.Photon.Hashtable)
 extern void RoomInfo__ctor_mB7E51C34204DD4DF7C230FA103E4474F00458F13 (void);
-// 0x000001D9 System.Boolean Photon.Realtime.RoomInfo::Equals(System.Object)
+// 0x000001DB System.Boolean Photon.Realtime.RoomInfo::Equals(System.Object)
 extern void RoomInfo_Equals_m08325774F94189E228DD394F9DDFBE242DC9020D (void);
-// 0x000001DA System.Int32 Photon.Realtime.RoomInfo::GetHashCode()
+// 0x000001DC System.Int32 Photon.Realtime.RoomInfo::GetHashCode()
 extern void RoomInfo_GetHashCode_mDBC0A71D6BCE880B76090EC8089D50204D800B15 (void);
-// 0x000001DB System.String Photon.Realtime.RoomInfo::ToString()
+// 0x000001DD System.String Photon.Realtime.RoomInfo::ToString()
 extern void RoomInfo_ToString_m3FBEFFC9EA83EB7AEAB9103BBB75AF977D8DE55A (void);
-// 0x000001DC System.String Photon.Realtime.RoomInfo::ToStringFull()
+// 0x000001DE System.String Photon.Realtime.RoomInfo::ToStringFull()
 extern void RoomInfo_ToStringFull_mC61F0D3747E93670295CED51C81160748AF80E88 (void);
-// 0x000001DD System.Void Photon.Realtime.RoomInfo::InternalCacheProperties(ExitGames.Client.Photon.Hashtable)
+// 0x000001DF System.Void Photon.Realtime.RoomInfo::InternalCacheProperties(ExitGames.Client.Photon.Hashtable)
 extern void RoomInfo_InternalCacheProperties_m63DC75C2047A0B7BA236F9B708E72F6B85B9DF87 (void);
-// 0x000001DE Photon.Realtime.LoadBalancingClient Photon.Realtime.SupportLogger::get_Client()
+// 0x000001E0 Photon.Realtime.LoadBalancingClient Photon.Realtime.SupportLogger::get_Client()
 extern void SupportLogger_get_Client_m3F15DB2AB82BF840798089CEC8D9F798129EF7ED (void);
-// 0x000001DF System.Void Photon.Realtime.SupportLogger::set_Client(Photon.Realtime.LoadBalancingClient)
+// 0x000001E1 System.Void Photon.Realtime.SupportLogger::set_Client(Photon.Realtime.LoadBalancingClient)
 extern void SupportLogger_set_Client_m516EEF1AC5B8F2EA206BCA29CE2A2F3D0EFD560C (void);
-// 0x000001E0 System.Void Photon.Realtime.SupportLogger::Start()
+// 0x000001E2 System.Void Photon.Realtime.SupportLogger::Start()
 extern void SupportLogger_Start_mEF5755517007326571A5BD067E423B06CDB25B20 (void);
-// 0x000001E1 System.Void Photon.Realtime.SupportLogger::OnDestroy()
+// 0x000001E3 System.Void Photon.Realtime.SupportLogger::OnDestroy()
 extern void SupportLogger_OnDestroy_mA3759505591EF6386997E686F6C63A7860C14D61 (void);
-// 0x000001E2 System.Void Photon.Realtime.SupportLogger::OnApplicationPause(System.Boolean)
+// 0x000001E4 System.Void Photon.Realtime.SupportLogger::OnApplicationPause(System.Boolean)
 extern void SupportLogger_OnApplicationPause_m3C665BEB01364A8D08F776B48DB6B9FDF910C5FE (void);
-// 0x000001E3 System.Void Photon.Realtime.SupportLogger::OnApplicationQuit()
+// 0x000001E5 System.Void Photon.Realtime.SupportLogger::OnApplicationQuit()
 extern void SupportLogger_OnApplicationQuit_m5D31C9746EB41F478159A481A2F42B979BA3EBCB (void);
-// 0x000001E4 System.Void Photon.Realtime.SupportLogger::StartLogStats()
+// 0x000001E6 System.Void Photon.Realtime.SupportLogger::StartLogStats()
 extern void SupportLogger_StartLogStats_mADEB668E877F7A13C48E457DCDFBBDD6FA45A439 (void);
-// 0x000001E5 System.Void Photon.Realtime.SupportLogger::StopLogStats()
+// 0x000001E7 System.Void Photon.Realtime.SupportLogger::StopLogStats()
 extern void SupportLogger_StopLogStats_mC018079D538BE027CAE1BE06562EF41064741AB3 (void);
-// 0x000001E6 System.Void Photon.Realtime.SupportLogger::StartTrackValues()
+// 0x000001E8 System.Void Photon.Realtime.SupportLogger::StartTrackValues()
 extern void SupportLogger_StartTrackValues_mF1E8384DB1F9A9F472D58031DE53E3A3ED718CB0 (void);
-// 0x000001E7 System.Void Photon.Realtime.SupportLogger::StopTrackValues()
+// 0x000001E9 System.Void Photon.Realtime.SupportLogger::StopTrackValues()
 extern void SupportLogger_StopTrackValues_m412943F66C1497EC8FEB2FAECDAC09883941FC38 (void);
-// 0x000001E8 System.String Photon.Realtime.SupportLogger::GetFormattedTimestamp()
+// 0x000001EA System.String Photon.Realtime.SupportLogger::GetFormattedTimestamp()
 extern void SupportLogger_GetFormattedTimestamp_m1E89673110FE0C56E645F27798C394EAE3CC393C (void);
-// 0x000001E9 System.Void Photon.Realtime.SupportLogger::TrackValues()
+// 0x000001EB System.Void Photon.Realtime.SupportLogger::TrackValues()
 extern void SupportLogger_TrackValues_mA1B658F169546E0992EDB43CF5943E7C05B692EB (void);
-// 0x000001EA System.Void Photon.Realtime.SupportLogger::LogStats()
+// 0x000001EC System.Void Photon.Realtime.SupportLogger::LogStats()
 extern void SupportLogger_LogStats_m72117C40251F6016E6C2ADD79DD5F23B69A88AD4 (void);
-// 0x000001EB System.Void Photon.Realtime.SupportLogger::LogBasics()
+// 0x000001ED System.Void Photon.Realtime.SupportLogger::LogBasics()
 extern void SupportLogger_LogBasics_mCA2B0EB1C33461698C1F0DC865A3189394B46CFB (void);
-// 0x000001EC System.Void Photon.Realtime.SupportLogger::OnConnected()
+// 0x000001EE System.Void Photon.Realtime.SupportLogger::OnConnected()
 extern void SupportLogger_OnConnected_mD3B22C9C910F781EE997FC39C70C57E47EE6A264 (void);
-// 0x000001ED System.Void Photon.Realtime.SupportLogger::OnConnectedToMaster()
+// 0x000001EF System.Void Photon.Realtime.SupportLogger::OnConnectedToMaster()
 extern void SupportLogger_OnConnectedToMaster_mD427D6E609E4A9D4874F6DD6F9C81C66F604C5F9 (void);
-// 0x000001EE System.Void Photon.Realtime.SupportLogger::OnFriendListUpdate(System.Collections.Generic.List`1<Photon.Realtime.FriendInfo>)
+// 0x000001F0 System.Void Photon.Realtime.SupportLogger::OnFriendListUpdate(System.Collections.Generic.List`1<Photon.Realtime.FriendInfo>)
 extern void SupportLogger_OnFriendListUpdate_mDE9F8B869A076E670499C05A87C14624B1C2A796 (void);
-// 0x000001EF System.Void Photon.Realtime.SupportLogger::OnJoinedLobby()
+// 0x000001F1 System.Void Photon.Realtime.SupportLogger::OnJoinedLobby()
 extern void SupportLogger_OnJoinedLobby_mD59E20234D3CD2213A5A32B57F57977BCF7D6316 (void);
-// 0x000001F0 System.Void Photon.Realtime.SupportLogger::OnLeftLobby()
+// 0x000001F2 System.Void Photon.Realtime.SupportLogger::OnLeftLobby()
 extern void SupportLogger_OnLeftLobby_m1C90343E99542FD0BC28ABB43F38B96D94D6CAD2 (void);
-// 0x000001F1 System.Void Photon.Realtime.SupportLogger::OnCreateRoomFailed(System.Int16,System.String)
+// 0x000001F3 System.Void Photon.Realtime.SupportLogger::OnCreateRoomFailed(System.Int16,System.String)
 extern void SupportLogger_OnCreateRoomFailed_m7D690C17A8BDD55B25AB53117D83EC876DF1DFB0 (void);
-// 0x000001F2 System.Void Photon.Realtime.SupportLogger::OnJoinedRoom()
+// 0x000001F4 System.Void Photon.Realtime.SupportLogger::OnJoinedRoom()
 extern void SupportLogger_OnJoinedRoom_m3A23B652C43C78F7A8805F59F1CDB5AAB2B051B9 (void);
-// 0x000001F3 System.Void Photon.Realtime.SupportLogger::OnJoinRoomFailed(System.Int16,System.String)
+// 0x000001F5 System.Void Photon.Realtime.SupportLogger::OnJoinRoomFailed(System.Int16,System.String)
 extern void SupportLogger_OnJoinRoomFailed_m32A3F8899D7522A49FA9FB2D89F42D80F461F17F (void);
-// 0x000001F4 System.Void Photon.Realtime.SupportLogger::OnJoinRandomFailed(System.Int16,System.String)
+// 0x000001F6 System.Void Photon.Realtime.SupportLogger::OnJoinRandomFailed(System.Int16,System.String)
 extern void SupportLogger_OnJoinRandomFailed_mECC76BE7463BC2384FBADA3C9706DF4710E2182C (void);
-// 0x000001F5 System.Void Photon.Realtime.SupportLogger::OnCreatedRoom()
+// 0x000001F7 System.Void Photon.Realtime.SupportLogger::OnCreatedRoom()
 extern void SupportLogger_OnCreatedRoom_m043CFC6CFE8CCC0A65CC8DF058C5AE522250A7AA (void);
-// 0x000001F6 System.Void Photon.Realtime.SupportLogger::OnLeftRoom()
+// 0x000001F8 System.Void Photon.Realtime.SupportLogger::OnLeftRoom()
 extern void SupportLogger_OnLeftRoom_m510C8001E5416983156439C7EEE8A4412F876C04 (void);
-// 0x000001F7 System.Void Photon.Realtime.SupportLogger::OnDisconnected(Photon.Realtime.DisconnectCause)
+// 0x000001F9 System.Void Photon.Realtime.SupportLogger::OnDisconnected(Photon.Realtime.DisconnectCause)
 extern void SupportLogger_OnDisconnected_mB5C49E9A276CDB10F79A55EEADD13E26C872B60D (void);
-// 0x000001F8 System.Void Photon.Realtime.SupportLogger::OnRegionListReceived(Photon.Realtime.RegionHandler)
+// 0x000001FA System.Void Photon.Realtime.SupportLogger::OnRegionListReceived(Photon.Realtime.RegionHandler)
 extern void SupportLogger_OnRegionListReceived_m749E7FB1F17547A4554CAC14202987D3D44B6012 (void);
-// 0x000001F9 System.Void Photon.Realtime.SupportLogger::OnRoomListUpdate(System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>)
+// 0x000001FB System.Void Photon.Realtime.SupportLogger::OnRoomListUpdate(System.Collections.Generic.List`1<Photon.Realtime.RoomInfo>)
 extern void SupportLogger_OnRoomListUpdate_m450F482954D0552A1A485B3D9EDF04CE6504A0B7 (void);
-// 0x000001FA System.Void Photon.Realtime.SupportLogger::OnPlayerEnteredRoom(Photon.Realtime.Player)
+// 0x000001FC System.Void Photon.Realtime.SupportLogger::OnPlayerEnteredRoom(Photon.Realtime.Player)
 extern void SupportLogger_OnPlayerEnteredRoom_m3A95539841186E4BE507E8669FED27A80451BB44 (void);
-// 0x000001FB System.Void Photon.Realtime.SupportLogger::OnPlayerLeftRoom(Photon.Realtime.Player)
+// 0x000001FD System.Void Photon.Realtime.SupportLogger::OnPlayerLeftRoom(Photon.Realtime.Player)
 extern void SupportLogger_OnPlayerLeftRoom_mB553DDBB74D41C43C9CE7FC442661BEC407C9C01 (void);
-// 0x000001FC System.Void Photon.Realtime.SupportLogger::OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
+// 0x000001FE System.Void Photon.Realtime.SupportLogger::OnRoomPropertiesUpdate(ExitGames.Client.Photon.Hashtable)
 extern void SupportLogger_OnRoomPropertiesUpdate_mEEF8238140F87680A9160C4FCDF6B829DE871F47 (void);
-// 0x000001FD System.Void Photon.Realtime.SupportLogger::OnPlayerPropertiesUpdate(Photon.Realtime.Player,ExitGames.Client.Photon.Hashtable)
+// 0x000001FF System.Void Photon.Realtime.SupportLogger::OnPlayerPropertiesUpdate(Photon.Realtime.Player,ExitGames.Client.Photon.Hashtable)
 extern void SupportLogger_OnPlayerPropertiesUpdate_mB570E44B70302BF3E549AD45FBD3128942D75E0D (void);
-// 0x000001FE System.Void Photon.Realtime.SupportLogger::OnMasterClientSwitched(Photon.Realtime.Player)
+// 0x00000200 System.Void Photon.Realtime.SupportLogger::OnMasterClientSwitched(Photon.Realtime.Player)
 extern void SupportLogger_OnMasterClientSwitched_m65A6694B44A97EE48571F343E61EAC73447FD5DA (void);
-// 0x000001FF System.Void Photon.Realtime.SupportLogger::OnCustomAuthenticationResponse(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+// 0x00000201 System.Void Photon.Realtime.SupportLogger::OnCustomAuthenticationResponse(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern void SupportLogger_OnCustomAuthenticationResponse_m411540477C7F20D1FDDD57B7D81DC7107142D534 (void);
-// 0x00000200 System.Void Photon.Realtime.SupportLogger::OnCustomAuthenticationFailed(System.String)
+// 0x00000202 System.Void Photon.Realtime.SupportLogger::OnCustomAuthenticationFailed(System.String)
 extern void SupportLogger_OnCustomAuthenticationFailed_m3B4F972D2BEF59F3207E71CCE40C16FBA13B1C79 (void);
-// 0x00000201 System.Void Photon.Realtime.SupportLogger::OnLobbyStatisticsUpdate(System.Collections.Generic.List`1<Photon.Realtime.TypedLobbyInfo>)
+// 0x00000203 System.Void Photon.Realtime.SupportLogger::OnLobbyStatisticsUpdate(System.Collections.Generic.List`1<Photon.Realtime.TypedLobbyInfo>)
 extern void SupportLogger_OnLobbyStatisticsUpdate_mB378AC02004C2294D98752EC70F7154AA57011BE (void);
-// 0x00000202 System.Void Photon.Realtime.SupportLogger::OnErrorInfo(Photon.Realtime.ErrorInfo)
+// 0x00000204 System.Void Photon.Realtime.SupportLogger::OnErrorInfo(Photon.Realtime.ErrorInfo)
 extern void SupportLogger_OnErrorInfo_m7EFA6DF6FFFE77118BC704CCBE06CDD4A3791A23 (void);
-// 0x00000203 System.Void Photon.Realtime.SupportLogger::.ctor()
+// 0x00000205 System.Void Photon.Realtime.SupportLogger::.ctor()
 extern void SupportLogger__ctor_mA19F932C333F278D7038BA82B5A8731E6D3BC5B5 (void);
-// 0x00000204 System.String Photon.Realtime.WebRpcResponse::get_Name()
+// 0x00000206 System.String Photon.Realtime.WebRpcResponse::get_Name()
 extern void WebRpcResponse_get_Name_m07F774596848E8D7638725CCDDD315B2306E5DE7 (void);
-// 0x00000205 System.Void Photon.Realtime.WebRpcResponse::set_Name(System.String)
+// 0x00000207 System.Void Photon.Realtime.WebRpcResponse::set_Name(System.String)
 extern void WebRpcResponse_set_Name_m095D12565064B14410FEE63E6C05DC546774A86D (void);
-// 0x00000206 System.Int32 Photon.Realtime.WebRpcResponse::get_ResultCode()
+// 0x00000208 System.Int32 Photon.Realtime.WebRpcResponse::get_ResultCode()
 extern void WebRpcResponse_get_ResultCode_m54C63D7CA0AB1521398A01C8C720D581F65564CC (void);
-// 0x00000207 System.Void Photon.Realtime.WebRpcResponse::set_ResultCode(System.Int32)
+// 0x00000209 System.Void Photon.Realtime.WebRpcResponse::set_ResultCode(System.Int32)
 extern void WebRpcResponse_set_ResultCode_mD491E392728861EB290022B46D419B4E49364191 (void);
-// 0x00000208 System.Int32 Photon.Realtime.WebRpcResponse::get_ReturnCode()
+// 0x0000020A System.Int32 Photon.Realtime.WebRpcResponse::get_ReturnCode()
 extern void WebRpcResponse_get_ReturnCode_m2EEE670416B48444A60183E752B166C7F5B8FE9E (void);
-// 0x00000209 System.String Photon.Realtime.WebRpcResponse::get_Message()
+// 0x0000020B System.String Photon.Realtime.WebRpcResponse::get_Message()
 extern void WebRpcResponse_get_Message_m1A6458393A9B1F01BAD460ADF1F01AAEBBD429C7 (void);
-// 0x0000020A System.Void Photon.Realtime.WebRpcResponse::set_Message(System.String)
+// 0x0000020C System.Void Photon.Realtime.WebRpcResponse::set_Message(System.String)
 extern void WebRpcResponse_set_Message_mE9A48AB2D1C8F35A86267E697309DDDDB4BD546A (void);
-// 0x0000020B System.String Photon.Realtime.WebRpcResponse::get_DebugMessage()
+// 0x0000020D System.String Photon.Realtime.WebRpcResponse::get_DebugMessage()
 extern void WebRpcResponse_get_DebugMessage_m5D49E7BEE42617B1CE92CDA2731A234853770EB1 (void);
-// 0x0000020C System.Collections.Generic.Dictionary`2<System.String,System.Object> Photon.Realtime.WebRpcResponse::get_Parameters()
+// 0x0000020E System.Collections.Generic.Dictionary`2<System.String,System.Object> Photon.Realtime.WebRpcResponse::get_Parameters()
 extern void WebRpcResponse_get_Parameters_m6F3D0C2BE5C482898AF11A1872B4B2F4B628BC56 (void);
-// 0x0000020D System.Void Photon.Realtime.WebRpcResponse::set_Parameters(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+// 0x0000020F System.Void Photon.Realtime.WebRpcResponse::set_Parameters(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern void WebRpcResponse_set_Parameters_mDB355FB4F2969B1F8E482DD930F5F7B9508E2133 (void);
-// 0x0000020E System.Void Photon.Realtime.WebRpcResponse::.ctor(ExitGames.Client.Photon.OperationResponse)
+// 0x00000210 System.Void Photon.Realtime.WebRpcResponse::.ctor(ExitGames.Client.Photon.OperationResponse)
 extern void WebRpcResponse__ctor_mE668F820EB3B8CF1E65495CC490285A9585EF011 (void);
-// 0x0000020F System.String Photon.Realtime.WebRpcResponse::ToStringFull()
+// 0x00000211 System.String Photon.Realtime.WebRpcResponse::ToStringFull()
 extern void WebRpcResponse_ToStringFull_m1CC511E903013C9938A0B8ACC099CCDEBDF9DD1B (void);
-// 0x00000210 System.Boolean Photon.Realtime.WebFlags::get_HttpForward()
+// 0x00000212 System.Boolean Photon.Realtime.WebFlags::get_HttpForward()
 extern void WebFlags_get_HttpForward_mE953246AA2C870572F2E41210166F3DB34983801 (void);
-// 0x00000211 System.Void Photon.Realtime.WebFlags::set_HttpForward(System.Boolean)
+// 0x00000213 System.Void Photon.Realtime.WebFlags::set_HttpForward(System.Boolean)
 extern void WebFlags_set_HttpForward_m18B85704D21B7825FAFE6A5316D65018470CAC30 (void);
-// 0x00000212 System.Boolean Photon.Realtime.WebFlags::get_SendAuthCookie()
+// 0x00000214 System.Boolean Photon.Realtime.WebFlags::get_SendAuthCookie()
 extern void WebFlags_get_SendAuthCookie_m43F91CFDF424BA5EE3B41BBCEDB3D1EDF6E562B0 (void);
-// 0x00000213 System.Void Photon.Realtime.WebFlags::set_SendAuthCookie(System.Boolean)
+// 0x00000215 System.Void Photon.Realtime.WebFlags::set_SendAuthCookie(System.Boolean)
 extern void WebFlags_set_SendAuthCookie_m9DBE9E489797E247B6A1B7C1A6E862A4DAA98004 (void);
-// 0x00000214 System.Boolean Photon.Realtime.WebFlags::get_SendSync()
+// 0x00000216 System.Boolean Photon.Realtime.WebFlags::get_SendSync()
 extern void WebFlags_get_SendSync_mB1BACDAF30FE2E24A2E9B18487978B1159440999 (void);
-// 0x00000215 System.Void Photon.Realtime.WebFlags::set_SendSync(System.Boolean)
+// 0x00000217 System.Void Photon.Realtime.WebFlags::set_SendSync(System.Boolean)
 extern void WebFlags_set_SendSync_m26579A7EFBBA5BCB2A8F8CC52F8B48BB8B5D555E (void);
-// 0x00000216 System.Boolean Photon.Realtime.WebFlags::get_SendState()
+// 0x00000218 System.Boolean Photon.Realtime.WebFlags::get_SendState()
 extern void WebFlags_get_SendState_m08F847D12B3D509777F39905749DCAE90F3BE5F3 (void);
-// 0x00000217 System.Void Photon.Realtime.WebFlags::set_SendState(System.Boolean)
+// 0x00000219 System.Void Photon.Realtime.WebFlags::set_SendState(System.Boolean)
 extern void WebFlags_set_SendState_mE7C650F6C66533E66D323EA8538720BE83F67E21 (void);
-// 0x00000218 System.Void Photon.Realtime.WebFlags::.ctor(System.Byte)
+// 0x0000021A System.Void Photon.Realtime.WebFlags::.ctor(System.Byte)
 extern void WebFlags__ctor_mB6C7632B44C70579815DEF054DB5D61D5D1AD06D (void);
-// 0x00000219 System.Void Photon.Realtime.WebFlags::.cctor()
+// 0x0000021B System.Void Photon.Realtime.WebFlags::.cctor()
 extern void WebFlags__cctor_m98CF3DCDC8909AA2A9959727459D715818C45D79 (void);
-static Il2CppMethodPointer s_methodPointers[537] = 
+static Il2CppMethodPointer s_methodPointers[539] = 
 {
 	AppSettings_get_IsMasterServerAddress_m192DDB33E4948A01D0A6A327E03C3E5EA70EF1D8,
 	AppSettings_get_IsBestRegion_m29A45FCEDFBC20C7C6E9CFA732A4E4FC2D1BBFED,
@@ -1525,6 +1529,8 @@ static Il2CppMethodPointer s_methodPointers[537] =
 	Room_SetExpectedUsers_m6A498A4381E7217249023D27D29DADB71C5E4EE1,
 	Room_ToString_m66F32FAC2CB0523E8309691F4E5A50AF4849FBCD,
 	Room_ToStringFull_mC592523E5F5327D78E30D24C6224BC4DA50F6E3D,
+	Room_get_Arena_mFB7166D828835D0076CA6F3CD8C83024C0BB4544,
+	Room_set_Arena_m5BCB60F6EABE331A18478E11CAB7F976E2CF605C,
 	RoomInfo_get_CustomProperties_mE54DDDE221FC51475970867611765A4205AFD422,
 	RoomInfo_get_Name_mAB935BEF1DAE8C99C0051D85426956E689A939EF,
 	RoomInfo_get_PlayerCount_m021CCF31A290BEADD0EECF2F3265D7D0BF2DD029,
@@ -1599,14 +1605,14 @@ static Il2CppMethodPointer s_methodPointers[537] =
 	WebFlags__ctor_mB6C7632B44C70579815DEF054DB5D61D5D1AD06D,
 	WebFlags__cctor_m98CF3DCDC8909AA2A9959727459D715818C45D79,
 };
-static const int32_t s_InvokerIndices[537] = 
+static const int32_t s_InvokerIndices[539] = 
 {
 	4005,
 	4005,
 	4005,
 	4005,
 	4073,
-	5884,
+	5885,
 	2984,
 	2984,
 	4168,
@@ -1615,7 +1621,7 @@ static const int32_t s_InvokerIndices[537] =
 	4051,
 	3355,
 	4005,
-	6322,
+	6323,
 	4168,
 	4168,
 	4168,
@@ -1623,25 +1629,25 @@ static const int32_t s_InvokerIndices[537] =
 	4168,
 	4005,
 	4168,
-	6322,
-	5512,
-	5584,
-	5512,
-	5584,
-	5512,
-	5584,
-	6322,
-	5748,
-	5748,
-	6034,
+	6323,
+	5513,
+	5585,
+	5513,
+	5585,
+	5513,
+	5585,
+	6323,
+	5749,
+	5749,
+	6035,
 	0,
-	6034,
-	6034,
-	6034,
-	6183,
-	6183,
-	5426,
-	6322,
+	6035,
+	6035,
+	6035,
+	6184,
+	6184,
+	5427,
+	6323,
 	4073,
 	4073,
 	3374,
@@ -1652,7 +1658,7 @@ static const int32_t s_InvokerIndices[537] =
 	4005,
 	4073,
 	4168,
-	6322,
+	6323,
 	4073,
 	3374,
 	4051,
@@ -1771,14 +1777,14 @@ static const int32_t s_InvokerIndices[537] =
 	3374,
 	3374,
 	3374,
-	5594,
+	5595,
 	3374,
 	822,
 	3374,
 	3374,
 	4168,
 	0,
-	6322,
+	6323,
 	4168,
 	1901,
 	0,
@@ -1838,8 +1844,8 @@ static const int32_t s_InvokerIndices[537] =
 	3374,
 	3374,
 	4073,
-	6293,
-	6183,
+	6294,
+	6184,
 	3306,
 	1901,
 	4168,
@@ -1864,7 +1870,7 @@ static const int32_t s_InvokerIndices[537] =
 	1220,
 	403,
 	2371,
-	6322,
+	6323,
 	4168,
 	4073,
 	3374,
@@ -1896,12 +1902,12 @@ static const int32_t s_InvokerIndices[537] =
 	3306,
 	4168,
 	4168,
-	6322,
+	6323,
 	4005,
 	4168,
 	1901,
 	4073,
-	6322,
+	6323,
 	4073,
 	4168,
 	4005,
@@ -1927,7 +1933,7 @@ static const int32_t s_InvokerIndices[537] =
 	4168,
 	4168,
 	4168,
-	6322,
+	6323,
 	2433,
 	4005,
 	4168,
@@ -1991,7 +1997,7 @@ static const int32_t s_InvokerIndices[537] =
 	3374,
 	4005,
 	3374,
-	6322,
+	6323,
 	4168,
 	1370,
 	4168,
@@ -2004,16 +2010,16 @@ static const int32_t s_InvokerIndices[537] =
 	4005,
 	4073,
 	4073,
-	6034,
-	6322,
+	6035,
+	6323,
 	3355,
 	4168,
 	4005,
 	4073,
 	4168,
 	4073,
-	6293,
-	6322,
+	6294,
+	6323,
 	4168,
 	4073,
 	3374,
@@ -2065,6 +2071,8 @@ static const int32_t s_InvokerIndices[537] =
 	1220,
 	4073,
 	4073,
+	4051,
+	3355,
 	4073,
 	4073,
 	4051,
@@ -2137,7 +2145,7 @@ static const int32_t s_InvokerIndices[537] =
 	4005,
 	3306,
 	3306,
-	6322,
+	6323,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
@@ -2167,7 +2175,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_PhotonRealtime_CodeGenModule;
 const Il2CppCodeGenModule g_PhotonRealtime_CodeGenModule = 
 {
 	"PhotonRealtime.dll",
-	537,
+	539,
 	s_methodPointers,
 	0,
 	NULL,

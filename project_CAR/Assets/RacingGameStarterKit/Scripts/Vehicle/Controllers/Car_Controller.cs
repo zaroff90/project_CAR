@@ -274,9 +274,9 @@ namespace RGSK
 
         void Drive()
         {
+
             if (!controllable)
                 return;
-
             switch (_propulsion)
             {
 
