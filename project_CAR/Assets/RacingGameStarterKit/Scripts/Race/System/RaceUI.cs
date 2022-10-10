@@ -94,7 +94,7 @@ namespace RGSK
         #endregion
 
         public static RaceUI instance;
-        private Statistics player;
+        public Statistics player;
         private DriftPointController driftpointcontroller;
 
         [Header("Starting Grid UI")]
@@ -658,6 +658,11 @@ namespace RGSK
                     if (startingGrid[i].vehicleName) startingGrid[i].vehicleName.text = _statistics.racerDetails.vehicleName;
                 }
             }
+        }
+        public void OnRefresh()
+        {
+            racingUI.inRaceStandings = new List<RacerInfoUI>();
+            RefreshInRaceStandings();
         }
         void ShowInRaceStandings()
         {

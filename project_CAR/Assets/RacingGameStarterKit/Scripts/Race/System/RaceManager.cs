@@ -100,7 +100,6 @@ namespace RGSK
         public bool penalties = true;
         public bool timeLimit;
         #endregion
-
         void Awake()
         {
             //create an instance
@@ -141,6 +140,14 @@ namespace RGSK
             else
             {
                 playerCar = (GameObject)Resources.Load(global.playerCar);
+                if (SceneManager.GetActiveScene().name=="Title")
+                {
+                    playerCar= (GameObject)Resources.Load("Camera_Ai 1");
+                    if (PhotonNetwork.IsConnected)
+                    {
+                        PhotonNetwork.Disconnect();
+                    }
+                }
             }
         }
 
@@ -282,16 +289,17 @@ namespace RGSK
                         GameObject rival = null;
                         if (PhotonNetwork.IsConnected)
                         {
-                            if (PhotonNetwork.LocalPlayer.ActorNumber== (spawnIndex + 2))
+                            //if (PhotonNetwork.LocalPlayer.ActorNumber== (spawnIndex + 2))
+                            if (PhotonNetwork.IsMasterClient)
                             {
-                                rival = PhotonNetwork.Instantiate((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).CustomProperties["Car"], spawnpoints[i].position, spawnpoints[i].rotation);
-
+                                rival = PhotonNetwork.InstantiateRoomObject((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).CustomProperties["Car"], spawnpoints[i].position, spawnpoints[i].rotation);
+                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));
                                 Hashtable hashRole = new Hashtable();
                                 hashRole.Add("Role", "Opponent");
-                                PhotonNetwork.LocalPlayer.SetCustomProperties(hashRole);
+                                PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).SetCustomProperties(hashRole);
 
-                                /*rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));*/
-                                rival.GetComponent<Statistics>().name = PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).NickName;
+                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));
+                                /*rival.GetComponent<Statistics>().name = PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).NickName;*/
                             }
                             if (PhotonNetwork.IsMasterClient)
                             {
@@ -318,7 +326,7 @@ namespace RGSK
 
                         if (PhotonNetwork.IsMasterClient)
                         {
-                            player = PhotonNetwork.Instantiate((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + 1)).CustomProperties["Car"], spawnPos.position, spawnPos.rotation);
+                            player = PhotonNetwork.InstantiateRoomObject((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + 1)).CustomProperties["Car"], spawnPos.position, spawnPos.rotation);
                             player.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(01));
 
                             Hashtable hashRole = new Hashtable();
@@ -374,7 +382,7 @@ namespace RGSK
                 CameraManager.instance.ActivateStartingGridCamera();
             }
         }
-        void SetRacerPreferences()
+        public void SetRacerPreferences()
         {
             Statistics[] racers = GameObject.FindObjectsOfType(typeof(Statistics)) as Statistics[];
             //Load opponent names if they havent already been loaded

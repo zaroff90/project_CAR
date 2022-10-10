@@ -50,7 +50,15 @@ namespace RGSK
             InvokeRepeating("SetCarRank", 0.1f, 0.5f);
         }
 
-
+        public void OnRefresh()
+        {
+            racerRanks = new List<Ranker>(new Ranker[100]);//allow upto 100 racers
+            racerStats = new List<ProgressTracker>();
+            totalRacers = 0;
+            currentRacers = 0;
+            
+            RefreshRacerCount();
+        }
         //Finds the number of racers in the race.
         public void RefreshRacerCount()
         {

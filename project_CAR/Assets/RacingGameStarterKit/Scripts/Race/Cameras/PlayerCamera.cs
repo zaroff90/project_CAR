@@ -12,7 +12,7 @@ namespace RGSK
         public enum CameraMode { Chase, Fixed, FirstPerson }
         public CameraMode cameraMode = CameraMode.Chase;
 
-        private Rigidbody rigid;
+        public Rigidbody rigid;
         public Transform target;
 
         [Header("Chase Camera Settings")]
@@ -263,7 +263,7 @@ namespace RGSK
             }
         }
 
-        void GetFixedCameraPositions()
+        public void GetFixedCameraPositions()
         {
             Transform[] fixedCams = target.GetComponentsInChildren<Transform>();
 

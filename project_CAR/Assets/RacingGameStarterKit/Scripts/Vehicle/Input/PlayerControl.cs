@@ -5,6 +5,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 using Photon.Pun;
+using Photon.Realtime;
 
 
 namespace RGSK
@@ -28,10 +29,6 @@ namespace RGSK
 
         void Awake()
         {
-            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
-            {
-                return;
-            }
             if (GetComponent<Car_Controller>())
                 car_controller = this.GetComponent<Car_Controller>();
 
@@ -41,10 +38,6 @@ namespace RGSK
 
         void Start()
         {
-            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
-            {
-                return;
-            }
             if (!InputManager.instance)
             {
                 Debug.LogError("No Input Manager Found! Please Create an Input Manager by going to Window/RacingGameStarterKit/RaceComponents");

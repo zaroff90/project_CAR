@@ -68,6 +68,7 @@ namespace RGSK
         public List<AudioClip> crashSounds = new List<AudioClip>();
 
         //Bools
+        public bool respawn = false;
         public bool controllable;
         public bool reversing;
         public bool enableSlipstream;
@@ -221,7 +222,7 @@ namespace RGSK
                 }
             }
 
-            if (controllable && RaceManager.instance)
+            if (controllable && RaceManager.instance && !respawn)
             {
                 controllable = false;
             }

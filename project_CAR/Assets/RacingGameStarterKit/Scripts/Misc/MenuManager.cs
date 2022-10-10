@@ -1179,6 +1179,22 @@ namespace RGSK
         {
             if (SoundManager.instance) SoundManager.instance.PlaySound("Button", true);
         }
-        
+
+        public void OnQuit()
+        {
+            Debug.Log("confirmation");
+            StartCoroutine(Quit());
+        }
+        public IEnumerator Quit()
+        {
+            async = SceneManager.LoadSceneAsync(0);
+
+            while (!async.isDone)
+            {
+                if (loadingBar) loadingBar.fillAmount = async.progress;
+
+                yield return null;
+            }
+        }
     }
 }

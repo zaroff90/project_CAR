@@ -45,7 +45,7 @@ namespace Com.MyCompany.MyGame
                 Debug.LogError("PhotonNetwork : Trying to Load a level but we are not the master Client");
                 return;
             }
-            Debug.LogFormat("PhotonNetwork : Loading Level : {0}", PhotonNetwork.CurrentRoom.PlayerCount);
+            PhotonNetwork.CurrentRoom.IsOpen = false;
             //PhotonNetwork.LoadLevel("Room for " + PhotonNetwork.CurrentRoom.PlayerCount);
             int arena = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
             if (arena == 1) PhotonNetwork.LoadLevel("City");
