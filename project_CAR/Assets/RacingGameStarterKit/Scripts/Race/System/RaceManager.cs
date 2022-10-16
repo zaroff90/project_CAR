@@ -266,8 +266,10 @@ namespace RGSK
                     {
                         if (allowDuplicateRacers)
                         {
-                            Instantiate(opponentCars[Random.Range(0, opponentCars.Count)], spawnpoints[i].position, spawnpoints[i].rotation);
-
+                            GameObject tmp = Instantiate(opponentCars[Random.Range(0, opponentCars.Count)], spawnpoints[i].position, spawnpoints[i].rotation);
+                            tmp.tag = "Opponent";
+                            tmp.GetComponent<PlayerControl>().enabled = false;
+                            tmp.GetComponent<OpponentControl>().enabled = true;
                         }
                         else {
 
@@ -275,7 +277,10 @@ namespace RGSK
 
                             if (spawnIndex > opponentCars.Count) spawnIndex = opponentCars.Count - 1;
 
-                            Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
+                            GameObject tmp = Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
+                            tmp.tag = "Opponent";
+                            tmp.GetComponent<PlayerControl>().enabled = false;
+                            tmp.GetComponent<OpponentControl>().enabled = true;
 
                             opponentCars.RemoveAt(spawnIndex);
                         }
@@ -309,8 +314,10 @@ namespace RGSK
                         }
                         else
                         {
-                            rival = Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
-
+                            GameObject tmp = Instantiate(opponentCars[spawnIndex], spawnpoints[i].position, spawnpoints[i].rotation);
+                            tmp.tag = "Opponent";
+                            tmp.GetComponent<PlayerControl>().enabled = false;
+                            tmp.GetComponent<OpponentControl>().enabled = true;
                         }
                         opponentCars.RemoveAt(spawnIndex);
                     }
