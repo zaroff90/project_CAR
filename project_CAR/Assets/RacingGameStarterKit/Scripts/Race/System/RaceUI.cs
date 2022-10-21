@@ -645,7 +645,6 @@ namespace RGSK
                 for (int i = 0; i < RankManager.instance.totalRacers; i++)
                 {
                     Statistics _statistics = RankManager.instance.racerRanks[i].racer.GetComponent<Statistics>();
-
                     if (_statistics == null) return;
 
                     //Position

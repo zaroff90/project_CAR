@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/200b0aPDevDbg.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/200b0aPDevDbg.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/200b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/AnchorSnap/AnchorSnap.cs"
 "Assets/Billboard Ads/adSwap.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"

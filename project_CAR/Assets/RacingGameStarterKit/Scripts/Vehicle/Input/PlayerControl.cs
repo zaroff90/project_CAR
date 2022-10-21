@@ -29,6 +29,7 @@ namespace RGSK
 
         void Awake()
         {
+
             if (GetComponent<Car_Controller>())
                 car_controller = this.GetComponent<Car_Controller>();
 

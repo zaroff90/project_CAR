@@ -105,7 +105,7 @@ namespace RGSK
             //create an instance
             instance = this;
 
-            
+            playerName = PlayerPrefs.GetString("PlayerName");
             //load race prefernces from an active data loader
             if (loadRacePreferences)
             {
