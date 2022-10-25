@@ -69,6 +69,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
     - Photon.Pun.PhotonTransformView
+    - Photon.Pun.PhotonTransformViewClassic
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
@@ -141,6 +142,9 @@ ScriptsOnlyBuild:
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView/SynchronizedLayer
     - Photon.Pun.PhotonAnimatorView/SynchronizedParameter
+    - Photon.Pun.PhotonTransformViewPositionModel
+    - Photon.Pun.PhotonTransformViewRotationModel
+    - Photon.Pun.PhotonTransformViewScaleModel
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -203,6 +207,9 @@ ScriptsOnlyBuild:
     fullTypeName: RGSK.MenuManager
     methodName: OnQuit
   - assembly: Assembly-CSharp
+    fullTypeName: Com.MyCompany.MyGame.PlayerNameInputField
+    methodName: SetPlayerName
+  - assembly: Assembly-CSharp
     fullTypeName: RGSK.Launcher
     methodName: Connect
   - assembly: Assembly-CSharp
@@ -220,6 +227,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: StartCountDown
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: RGSK.RaceUI
+    methodName: Exit
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: Exit
@@ -229,6 +245,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: Exit
@@ -238,6 +260,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
     Assets/Racing Tracks/Scenes/Classical City/City.unity:
     - Class: 1
@@ -310,6 +338,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1832}
     - Class: 114
       Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 1972}
     - Class: 114
       Script: {instanceID: 2254}
     - Class: 114
@@ -384,8 +414,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8314}
     - Class: 114
       Script: {instanceID: 8346}
-    - Class: 114
-      Script: {instanceID: 8436}
     - Class: 114
       Script: {instanceID: 8604}
     - Class: 114
@@ -496,6 +524,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1862}
     - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
       Script: {instanceID: 2254}
     - Class: 114
       Script: {instanceID: 2576}
@@ -567,8 +597,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8110}
     - Class: 114
       Script: {instanceID: 8346}
-    - Class: 114
-      Script: {instanceID: 8436}
     - Class: 114
       Script: {instanceID: 8604}
     - Class: 114
@@ -681,6 +709,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1862}
     - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
       Script: {instanceID: 2254}
     - Class: 114
       Script: {instanceID: 2576}
@@ -752,8 +782,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8110}
     - Class: 114
       Script: {instanceID: 8346}
-    - Class: 114
-      Script: {instanceID: 8436}
     - Class: 114
       Script: {instanceID: 8604}
     - Class: 114
@@ -1008,6 +1036,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1832}
     - Class: 114
       Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 1972}
     - Class: 114
       Script: {instanceID: 2254}
     - Class: 114
@@ -3196,4 +3226,4 @@ ScriptsOnlyBuild:
   - Assets/Racing Tracks/Scenes/Classical City/City.unity
   - Assets/Racing Tracks/Scenes/Green Lands/Greens.unity
   - Assets/Racing Tracks/Scenes/Modern City/Downtown.unity
-  playerPath: /Users/bsmith/Desktop/car
+  playerPath: /Users/bsmith/Desktop/car2

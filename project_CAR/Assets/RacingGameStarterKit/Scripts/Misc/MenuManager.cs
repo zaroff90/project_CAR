@@ -26,13 +26,13 @@ namespace RGSK
             public Material VehicleRims;
 
             [Header("Specs")]
-            [Range(0, 1)]
+            [Range(400, 3300)]
             public float speed;
-            [Range(0, 1)]
+            [Range(3100, 300)]
             public float acceleration;
-            [Range(0, 1)]
+            [Range(1, 0)]
             public float handling;
-            [Range(0, 1)]
+            [Range(5000, 25000)]
             public float braking;
         }
 
@@ -81,13 +81,13 @@ namespace RGSK
         {
             public string vehicle_name;
             [Space(10)]
-            [Range(0, 1)]
+            [Range(400, 3300)]
             public float speed;
-            [Range(0, 1)]
+            [Range(3100, 300)]
             public float acceleration;
-            [Range(0, 1)]
+            [Range(1, 0)]
             public float handling;
-            [Range(0, 1)]
+            [Range(5000, 25000)]
             public float braking;
         }
         #endregion
@@ -398,13 +398,13 @@ namespace RGSK
         private void LerpStats()
         {
             //Normal Stats
-            if (speed) speed.fillAmount = Mathf.Lerp(speed.fillAmount, menuVehicles[vehicleIndex].speed, Time.deltaTime * 3.0f);
+            if (speed) speed.fillAmount = Mathf.Lerp(speed.fillAmount, (menuVehicles[vehicleIndex].speed/3300), Time.deltaTime * 3.0f);
 
-            if (accel) accel.fillAmount = Mathf.Lerp(accel.fillAmount, menuVehicles[vehicleIndex].acceleration, Time.deltaTime * 3.0f);
+            if (accel) accel.fillAmount = Mathf.Lerp(accel.fillAmount, (menuVehicles[vehicleIndex].acceleration/3100 ), Time.deltaTime * 3.0f);
 
-            if (handling) handling.fillAmount = Mathf.Lerp(handling.fillAmount, menuVehicles[vehicleIndex].handling, Time.deltaTime * 3.0f);
+            if (handling) handling.fillAmount = Mathf.Lerp(handling.fillAmount, (menuVehicles[vehicleIndex].handling/1), Time.deltaTime * 3.0f);
 
-            if (braking) braking.fillAmount = Mathf.Lerp(braking.fillAmount, menuVehicles[vehicleIndex].braking, Time.deltaTime * 3.0f);
+            if (braking) braking.fillAmount = Mathf.Lerp(braking.fillAmount, (menuVehicles[vehicleIndex].braking/22000), Time.deltaTime * 3.0f);
         }
 
 

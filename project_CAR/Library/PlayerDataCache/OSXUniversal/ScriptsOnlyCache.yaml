@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - Car_Control_Editor
     Assembly-CSharp.dll:
     - Com.MyCompany.MyGame.OnlineGameManager
     - Com.MyCompany.MyGame.PlayerNameInputField
@@ -227,6 +225,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: StartCountDown
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: RGSK.RaceUI
+    methodName: Exit
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: Exit
@@ -236,6 +243,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: RGSK.RaceUI
     methodName: Exit
@@ -245,6 +258,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
     Assets/Racing Tracks/Scenes/Classical City/City.unity:
     - Class: 1
@@ -2792,6 +2811,12 @@ ScriptsOnlyBuild:
     className: ToDemoHubButton
   - hash:
       serializedVersion: 2
+      Hash: a6d7820e4c11dd17be37dff5ada66fd6
+    assemblyName: PhotonRealtime.dll
+    namespaceName: Photon.Realtime
+    className: PhotonAppSettings
+  - hash:
+      serializedVersion: 2
       Hash: 3d1f3cadcb68f06ccdb79f0b29e68531
     assemblyName: Assembly-CSharp.dll
     namespaceName: RGSK
@@ -2972,7 +2997,7 @@ ScriptsOnlyBuild:
     className: IKBoneViewer
   - hash:
       serializedVersion: 2
-      Hash: 8ae3331b163cc121825eeed3975d6c4d
+      Hash: 7470332e8d9a1ae715582a7c643b65d2
     assemblyName: Assembly-CSharp.dll
     namespaceName: Photon.Chat.Demo
     className: ChatGui
@@ -3205,4 +3230,4 @@ ScriptsOnlyBuild:
   - Assets/Racing Tracks/Scenes/Classical City/City.unity
   - Assets/Racing Tracks/Scenes/Green Lands/Greens.unity
   - Assets/Racing Tracks/Scenes/Modern City/Downtown.unity
-  playerPath: /Users/bsmith/Desktop/car.app
+  playerPath: /Users/bsmith/Desktop/car
