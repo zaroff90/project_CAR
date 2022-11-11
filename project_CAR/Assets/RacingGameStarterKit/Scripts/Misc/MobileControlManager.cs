@@ -26,6 +26,12 @@ namespace RGSK
             {
                 PlayerPrefs.SetString("MobileControlType", "Touch");
             }
+
+            if (SystemInfo.deviceType != DeviceType.Handheld)
+            {
+                this.gameObject.SetActive(false);
+            }
+
         }
 
         public void UpdateControls(PlayerControl control)

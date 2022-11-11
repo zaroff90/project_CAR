@@ -79,7 +79,6 @@ namespace RGSK
         {
             //Create an instance
             instance = this;
-
             if (dontDestroyOnLoad)
                 DontDestroyOnLoad(gameObject);
         }

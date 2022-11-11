@@ -40,7 +40,7 @@ namespace RGSK
 
             //automatically enable touch orbit on mobile platforms
 #if UNITY_ANDROID || UNITY_IOS || UNITY_WP_8
-            allowTouchOrbit = true;
+            allowTouchOrbit = false;
 #else
             allowTouchOrbit = false;
 #endif

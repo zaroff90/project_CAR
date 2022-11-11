@@ -35,6 +35,11 @@ namespace RGSK
 
             if (GetComponent<Motorbike_Controller>())
                 bike_controller = this.GetComponent<Motorbike_Controller>();
+
+            if (SystemInfo.deviceType != DeviceType.Handheld)
+            {
+                PlayerPrefs.SetString("AutoAcceleration", "False");
+            }
         }
 
         void Start()
@@ -104,7 +109,7 @@ namespace RGSK
                     SendInputs(accel, brake, steer, handbrake, nitro);
 
                     //Pause
-                    if (Input.GetKeyDown(InputManager.instance.keyboardInput.pauseKey))
+                    if (Input.GetKeyDown(InputManager.instance.keyboardInput.pauseKey) && !PhotonNetwork.IsConnected)
                     {
                         if (RaceManager.instance)
                             RaceManager.instance.PauseRace();
