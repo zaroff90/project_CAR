@@ -587,11 +587,15 @@ namespace RGSK
 
         void CalculateRaceRewards(int pos)
         {
-            if (raceRewards.Count >= pos)
+                if (raceRewards.Count >= pos)
             {
                 //Give currency
                 if (raceRewards[pos - 1].currency > 0)
                 {
+                    if (PhotonNetwork.IsConnected)
+                    {
+                        raceRewards[pos - 1].currency *= 2;
+                    }
                     PlayerData.AddCurrency(raceRewards[pos - 1].currency);
                     RaceUI.instance.SetRewardText(raceRewards[pos - 1].currency.ToString("N0"), "", "");
                     Debug.Log("Reward Currency : " + raceRewards[pos - 1].currency);

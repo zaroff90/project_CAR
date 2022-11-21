@@ -13,6 +13,9 @@ namespace RGSK
         public GameObject OnlinePlay;
         public GameObject NameField;
 
+        public Button btnDay;
+        public Button btnNight;
+
         [System.Serializable]
         public class MenuVehicle
         {
@@ -26,13 +29,13 @@ namespace RGSK
             public Material VehicleRims;
 
             [Header("Specs")]
-            [Range(400, 3300)]
+            [Range(140, 221)]
             public float speed;
-            [Range(3100, 300)]
+            [Range(700, 1500)]
             public float acceleration;
-            [Range(1, 0)]
+            [Range(0, 1)]
             public float handling;
-            [Range(5000, 25000)]
+            [Range(11000, 19000)]
             public float braking;
         }
 
@@ -49,6 +52,7 @@ namespace RGSK
             public int aiCount = 4;
             public int price;
             public bool unlocked;
+            public string prize;
         }
 
         #region Customization Classes
@@ -125,7 +129,7 @@ namespace RGSK
 
         [Header("Track Select UI")]
         public Image trackImage;
-        public Text trackName, raceType, lapCount, aiCount, aiDifficulty, bestTime, trackLength;
+        public Text trackName, raceType, lapCount, aiCount, aiDifficulty, bestTime, trackLength, trackPrize;
         public Button raceButton, buyTrackButton;
 
         [Header("Customization UI")]
@@ -243,6 +247,20 @@ namespace RGSK
             UpdateUI();
         }
 
+        public void pressDay()
+        {
+            btnDay.gameObject.SetActive(false);
+            btnNight.gameObject.SetActive(true);
+            global.time = "Night";
+        }
+
+        public void pressNight()
+        {
+            btnNight.gameObject.SetActive(false);
+            btnDay.gameObject.SetActive(true);
+            global.time = "Day";
+        }
+
         void UpdateUI()
         {
 
@@ -308,6 +326,8 @@ namespace RGSK
                     if (trackName) trackName.text = menuTracks[trackIndex].name;
 
                     if (trackLength) trackLength.text = menuTracks[trackIndex].trackLength;
+
+                    if (trackPrize) trackPrize.text = menuTracks[trackIndex].prize.ToString();
 
                     if (trackImage && menuTracks[trackIndex].image) trackImage.sprite = menuTracks[trackIndex].image;
 
@@ -398,13 +418,13 @@ namespace RGSK
         private void LerpStats()
         {
             //Normal Stats
-            if (speed) speed.fillAmount = Mathf.Lerp(speed.fillAmount, (menuVehicles[vehicleIndex].speed/3300), Time.deltaTime * 3.0f);
+            if (speed) speed.fillAmount = Mathf.Lerp(speed.fillAmount, (menuVehicles[vehicleIndex].speed/221), Time.deltaTime * 3.0f);
 
-            if (accel) accel.fillAmount = Mathf.Lerp(accel.fillAmount, (menuVehicles[vehicleIndex].acceleration/3100 ), Time.deltaTime * 3.0f);
+            if (accel) accel.fillAmount = Mathf.Lerp(accel.fillAmount, (menuVehicles[vehicleIndex].acceleration/1500 ), Time.deltaTime * 3.0f);
 
             if (handling) handling.fillAmount = Mathf.Lerp(handling.fillAmount, (menuVehicles[vehicleIndex].handling/1), Time.deltaTime * 3.0f);
 
-            if (braking) braking.fillAmount = Mathf.Lerp(braking.fillAmount, (menuVehicles[vehicleIndex].braking/22000), Time.deltaTime * 3.0f);
+            if (braking) braking.fillAmount = Mathf.Lerp(braking.fillAmount, (menuVehicles[vehicleIndex].braking/19000), Time.deltaTime * 3.0f);
         }
 
 

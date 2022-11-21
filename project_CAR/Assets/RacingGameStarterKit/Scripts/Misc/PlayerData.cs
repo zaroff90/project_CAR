@@ -7,7 +7,7 @@ namespace RGSK
     public class PlayerData : MonoBehaviour
     {
 
-        private static int startingCurrency = 100000;
+        private static int startingCurrency = 0;
         public static int currency;
 
         public static void ClearData()

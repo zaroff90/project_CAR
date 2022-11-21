@@ -13,7 +13,7 @@ namespace RGSK
         public static string playerCar = "Sportscar_2";
         public static List<string> opponentCars = new List<string>();
 
-
+        public static string time = "Night";
 
         void Start()
         {
