@@ -5,6 +5,8 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.Linq;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
+using System.Collections;
+
 namespace RGSK
 {
     public class Launcher : MonoBehaviourPunCallbacks
@@ -28,7 +30,8 @@ namespace RGSK
         public GameObject roomPanel;
         public GameObject playerEntry;
         public int arena;
-        public int time=10;
+        public int time = 10;
+        public int timeBot = 6;
         public GameObject timePanel;
 
         public bool isGuest=false;
@@ -71,6 +74,7 @@ namespace RGSK
         {
             onlinePanel.SetActive(true);
             controlPanel.SetActive(false);
+            global.onlineBots = 0;
             // we check if we are connected or not, we join if we are , else we initiate the connection to the server.
             if (PhotonNetwork.IsConnected)
             {
@@ -85,7 +89,10 @@ namespace RGSK
             }
         }
 
-
+        public void Disconnect()
+        {
+            PhotonNetwork.Disconnect();
+        }
         #endregion
 
         #region MonoBehaviourPunCallbacks Callbacks
@@ -108,9 +115,10 @@ namespace RGSK
 
         public override void OnDisconnected(DisconnectCause cause)
         {
+            /*
             onlinePanel.SetActive(false);
             controlPanel.SetActive(true);
-
+            */
             Debug.LogWarningFormat("PUN Basics Tutorial/Launcher: OnDisconnected() was called by PUN with reason {0}", cause);
         }
 
@@ -146,6 +154,7 @@ namespace RGSK
 
                 Hashtable hashTime = new Hashtable();
                 hash.Add("Time", 10); PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+                StartCoroutine(timeBots());
             }
             else
             {
@@ -169,7 +178,22 @@ namespace RGSK
                 entry.SetActive(true);
             }
         }
+
         #endregion
+        private IEnumerator timeBots()
+        {
+            yield return new WaitForSeconds(1);
+            timeBot--;
+            if (PhotonNetwork.CurrentRoom.PlayerCount == 1 && timeBot>0)
+            {
+                StartCoroutine(timeBots());
+            }
+            if (PhotonNetwork.CurrentRoom.PlayerCount == 1 && timeBot == 0)
+            {
+                global.onlineBots = 4;
+                GameObject.Find("Room Canvas").GetComponent<OnlineGameManager>().OnBotEnteredRoom();
+            }
+        }
         private void Update()
         {
             if (isGuest)
@@ -179,5 +203,6 @@ namespace RGSK
                 timePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Race Starts In :" + time;
             }
         }
+
     }
 }

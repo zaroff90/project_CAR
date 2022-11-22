@@ -13,7 +13,7 @@ using Photon.Realtime;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 
-namespace Com.MyCompany.MyGame
+namespace RGSK
 {
     public class OnlineGameManager : MonoBehaviourPunCallbacks
     {
@@ -21,6 +21,7 @@ namespace Com.MyCompany.MyGame
         private GameObject entry;
         public GameObject timePanel;
         public int time=10;
+        public int level = 0;
         #region Photon Callbacks
 
 
@@ -29,7 +30,7 @@ namespace Com.MyCompany.MyGame
         /// </summary>
         public override void OnLeftRoom()
         {
-            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(0);
         }
 
 
@@ -51,9 +52,13 @@ namespace Com.MyCompany.MyGame
             if (arena == 1) PhotonNetwork.LoadLevel("City");
             if (arena == 2) PhotonNetwork.LoadLevel("Greens");
             if (arena == 3) PhotonNetwork.LoadLevel("Downtown");
-
         }
-
+        void LoadArenaOffline()
+        {
+            if (level == 1) PhotonNetwork.LoadLevel("City");
+            if (level == 2) PhotonNetwork.LoadLevel("Greens");
+            if (level == 3) PhotonNetwork.LoadLevel("Downtown");
+        }
 
         #endregion
 
@@ -70,7 +75,26 @@ namespace Com.MyCompany.MyGame
 
         #region Photon Callbacks
 
+        public void OnBotEnteredRoom()
+        {
+            PhotonNetwork.CurrentRoom.IsOpen = false;
+            if (time == 10)
+            {
+                Hashtable hash = new Hashtable();
+                hash.Add("Time", time);
+                PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+                timePanel.SetActive(true);
+                StartCoroutine(timeStart());
+            }
 
+            for (int i = 1; i <= global.onlineBots; i++)
+            {
+                GameObject entry = Instantiate(playerEntry);
+                entry.transform.parent = playerEntry.transform.parent;
+                entry.transform.GetChild(1).GetComponent<Text>().text = "Player0"+i;
+                entry.SetActive(true);
+            }
+        }
         public override void OnPlayerEnteredRoom(Player other)
         {
             Debug.LogFormat("OnPlayerEnteredRoom() {0}", other.NickName); // not seen if you're the player connecting
@@ -116,16 +140,29 @@ namespace Com.MyCompany.MyGame
 
         public IEnumerator timeStart()
         {
-            if (time == 0)
+            if (global.onlineBots > 0 && PhotonNetwork.IsConnected)
+            {
+                level = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
+                PhotonNetwork.Disconnect();              
+            }
+            if (time == 0 && global.onlineBots==0)
             {
                 LoadArena();
+                yield break;
+            }
+            if (time == 0 && global.onlineBots > 0)
+            {
+                LoadArenaOffline();
                 yield break;
             }
             timePanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Race Starts In :" + time;
             yield return new WaitForSeconds(1);
             time--;
-            Hashtable hash = new Hashtable();
-            hash.Add("Time", time); PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+            if (PhotonNetwork.IsConnected)
+            {
+                Hashtable hash = new Hashtable();
+                hash.Add("Time", time); PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+            }
             StartCoroutine(timeStart());
         }
         #endregion

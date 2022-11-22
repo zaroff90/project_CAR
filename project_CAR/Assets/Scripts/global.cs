@@ -15,6 +15,8 @@ namespace RGSK
 
         public static string time = "Night";
 
+        public static int onlineBots = 0;
+
         void Start()
         {
             //Calls the TaskOnClick/TaskWithParameters/ButtonClicked method when you click the Button

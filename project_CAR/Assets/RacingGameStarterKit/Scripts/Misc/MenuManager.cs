@@ -1204,6 +1204,7 @@ namespace RGSK
         {
             Debug.Log("confirmation");
             StartCoroutine(Quit());
+            
         }
         public IEnumerator Quit()
         {

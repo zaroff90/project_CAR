@@ -149,6 +149,8 @@ namespace RGSK
                     }
                 }
             }
+            if (global.onlineBots>0)
+            totalRacers = global.onlineBots + 1;
         }
 
         void Start()
@@ -335,7 +337,7 @@ namespace RGSK
                         {
                             player = PhotonNetwork.InstantiateRoomObject((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + 1)).CustomProperties["Car"], spawnPos.position, spawnPos.rotation);
                             player.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(01));
-
+                            player.GetComponent<PlayerControl>().enabled = true;
                             Hashtable hashRole = new Hashtable();
                             hashRole.Add("Role", "Player");
                             PhotonNetwork.LocalPlayer.SetCustomProperties(hashRole);
@@ -347,6 +349,8 @@ namespace RGSK
                     else
                     {
                         player = (GameObject)Instantiate(playerCar, spawnPos.position, spawnPos.rotation);
+                        if (player.GetComponent<PlayerControl>())
+                        player.GetComponent<PlayerControl>().enabled = true;
 
                     }
 
