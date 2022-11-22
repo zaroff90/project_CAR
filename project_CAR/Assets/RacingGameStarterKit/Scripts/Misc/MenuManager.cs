@@ -1107,6 +1107,12 @@ namespace RGSK
             Back();
         }
 
+        public void BuyCurrency()
+        {
+            PlayerData.AddCurrency(5000);
+            UpdateUI();
+        }
+
         public void AcceptPrompt()
         {
             switch (state)
