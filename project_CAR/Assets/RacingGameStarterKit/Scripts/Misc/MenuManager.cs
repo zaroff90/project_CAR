@@ -16,6 +16,8 @@ namespace RGSK
         public Button btnDay;
         public Button btnNight;
 
+        public Button btnOnline;
+
         [System.Serializable]
         public class MenuVehicle
         {
@@ -883,8 +885,14 @@ namespace RGSK
         public void TrackSelect()
         {
             ButtonSFX();
-
-            state = State.TrackSelect;
+            if (RaceManager.onlineMode)
+            {
+                btnOnline.onClick.Invoke();
+            }
+            else
+            {
+                state = State.TrackSelect;
+            }
 
             UpdateUI();
         }

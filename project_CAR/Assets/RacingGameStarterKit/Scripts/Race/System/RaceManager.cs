@@ -634,7 +634,7 @@ namespace RGSK
                 //Handle un-pausing
                 SwitchRaceState(RaceState.Racing);
 
-                Time.timeScale = 1.0f;
+                //Time.timeScale = 1.0f;
 
                 SoundManager.instance.SetVolume();
 
@@ -644,7 +644,7 @@ namespace RGSK
                 //Handle pausing
                 SwitchRaceState(RaceState.Paused);
 
-                Time.timeScale = 0.0f;
+                //Time.timeScale = 0.0f;
 
                 AudioListener.volume = 0.0f;
             }

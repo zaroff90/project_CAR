@@ -131,8 +131,8 @@ namespace RGSK
                 return true;
             }
 
-            if (Input.GetAxis("LeftAnalogHorizontal") != 0.0f ||
-               Input.GetAxis("LeftAnalogVertical") != 0.0f ||
+            if (Input.GetAxis("Horizontal") != 0.0f ||
+               Input.GetAxis("Vertical") != 0.0f ||
                Input.GetAxis("Triggers") != 0.0f ||
                Input.GetAxis("RightAnalogHorizontal") != 0.0f ||
                Input.GetAxis("RightAnalogVertical") != 0.0f)
