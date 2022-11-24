@@ -25,6 +25,9 @@ namespace Cooldhands.UICursor.Example
                 m_animator.SetTrigger("Click");
             }
         }
+        private void Update()
+        {
 
+        }
     }
 }

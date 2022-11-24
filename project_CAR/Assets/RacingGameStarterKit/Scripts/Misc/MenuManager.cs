@@ -251,15 +251,11 @@ namespace RGSK
 
         public void pressDay()
         {
-            btnDay.gameObject.SetActive(false);
-            btnNight.gameObject.SetActive(true);
             global.time = "Night";
         }
 
         public void pressNight()
         {
-            btnNight.gameObject.SetActive(false);
-            btnDay.gameObject.SetActive(true);
             global.time = "Day";
         }
 

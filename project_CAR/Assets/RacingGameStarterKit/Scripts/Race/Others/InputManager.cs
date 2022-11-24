@@ -130,7 +130,7 @@ namespace RGSK
             {
                 return true;
             }
-
+            /*
             if (Input.GetAxis("Horizontal") != 0.0f ||
                Input.GetAxis("Vertical") != 0.0f ||
                Input.GetAxis("Triggers") != 0.0f ||
@@ -139,6 +139,7 @@ namespace RGSK
             {
                 return true;
             }
+            */
             return false;
         }
     }

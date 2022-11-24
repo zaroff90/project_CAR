@@ -50,7 +50,7 @@ namespace RGSK
 
         void Update()
         {
-            orbit = (!allowTouchOrbit) ? Input.GetButton("Fire2") : Input.touchCount == 1;
+            //orbit = (!allowTouchOrbit) ? Input.GetAxis("Confirm")>.1 : Input.touchCount == 1;
         }
 
         void LateUpdate()
