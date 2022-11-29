@@ -142,8 +142,8 @@ namespace RGSK
             if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
             {
                 Debug.Log("We load the 'Room for 1' ");
-                int randomNumber = Random.Range(1, 4);
-
+                int randomNumber = Random.Range(1, 5);
+                randomNumber = 4;
                 Hashtable hash = new Hashtable();
                 hash.Add("Arena", randomNumber);
                 PhotonNetwork.CurrentRoom.SetCustomProperties(hash);

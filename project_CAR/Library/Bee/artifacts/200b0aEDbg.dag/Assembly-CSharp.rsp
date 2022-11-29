@@ -462,6 +462,7 @@
 "Assets/Scripts/PhotonCustomFields.cs"
 "Assets/Scripts/PlayerNameInputField.cs"
 "Assets/Scripts/testOwner.cs"
+"Assets/Srivatsan Lakshmanan/Scripts/VideoManager.cs"
 "Assets/UICursor/CoreScripts/New System/UICursorOverRaycaster.cs"
 "Assets/UICursor/CoreScripts/New System/UICursorVirtualMouseInput.cs"
 "Assets/UICursor/CoreScripts/Old System/UICursorInputModule.cs"

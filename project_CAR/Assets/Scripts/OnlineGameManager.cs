@@ -52,12 +52,14 @@ namespace RGSK
             if (arena == 1) PhotonNetwork.LoadLevel("City");
             if (arena == 2) PhotonNetwork.LoadLevel("Greens");
             if (arena == 3) PhotonNetwork.LoadLevel("Downtown");
+            if (level == 4) PhotonNetwork.LoadLevel("CarRace");
         }
         void LoadArenaOffline()
         {
             if (level == 1) PhotonNetwork.LoadLevel("City");
             if (level == 2) PhotonNetwork.LoadLevel("Greens");
             if (level == 3) PhotonNetwork.LoadLevel("Downtown");
+            if (level == 4) PhotonNetwork.LoadLevel("CarRace");
         }
 
         #endregion
