@@ -789,7 +789,7 @@ namespace RGSK
             }
 
             raceDistance = pathContainer.GetComponent<WaypointCircuit>().distances[pathContainer.GetComponent<WaypointCircuit>().distances.Length - 1];
-            Debug.Log(raceDistance);
+//            Debug.Log(raceDistance);
         }
 
         //used to respawn a racer
