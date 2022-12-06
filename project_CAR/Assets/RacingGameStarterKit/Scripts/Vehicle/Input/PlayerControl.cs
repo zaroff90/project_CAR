@@ -192,12 +192,10 @@ namespace RGSK
 
         void SendInputs(float accel, float brake, float steer, float handbrake, bool nitro)
         {
-            Debug.Log("i");
             if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
-            Debug.Log("j");
             if (car_controller)
             {
                 car_controller.motorInput = (brake <= 0) ? accel : 0;
@@ -205,7 +203,6 @@ namespace RGSK
                 car_controller.steerInput = steer;
                 car_controller.handbrakeInput = handbrake;
                 car_controller.usingNitro = nitro;
-                Debug.Log("k");
             }
 
             if (bike_controller)

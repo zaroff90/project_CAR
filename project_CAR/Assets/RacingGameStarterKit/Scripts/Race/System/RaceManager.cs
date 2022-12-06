@@ -299,13 +299,13 @@ namespace RGSK
                             //if (PhotonNetwork.LocalPlayer.ActorNumber== (spawnIndex + 2))
                             if (PhotonNetwork.IsMasterClient)
                             {
-                                rival = PhotonNetwork.InstantiateRoomObject((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).CustomProperties["Car"], spawnpoints[i].position, spawnpoints[i].rotation);
-                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));
+                                rival = PhotonNetwork.InstantiateRoomObject((string)PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + (i + 1))).CustomProperties["Car"], spawnpoints[i].position, spawnpoints[i].rotation);
+                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + (i + 1))));
                                 Hashtable hashRole = new Hashtable();
                                 hashRole.Add("Role", "Opponent");
-                                PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).SetCustomProperties(hashRole);
+                                PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + (i + 1))).SetCustomProperties(hashRole);
 
-                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)));
+                                rival.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + (i + 1))));
                                 /*rival.GetComponent<Statistics>().name = PhotonNetwork.CurrentRoom.GetPlayer(int.Parse("0" + spawnIndex + 2)).NickName;*/
                             }
                             if (PhotonNetwork.IsMasterClient)

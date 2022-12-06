@@ -119,10 +119,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -444,6 +442,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: Assembly-CSharp
+    fullTypeName: RGSK.RaceUI
+    methodName: Exit
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -477,6 +478,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MusicPlayer
     methodName: OnNext
+  - assembly: Assembly-CSharp
+    fullTypeName: RGSK.RaceUI
+    methodName: Exit
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -2008,7 +2012,7 @@ ScriptsOnlyBuild:
     className: ChildCameraPosition
   - hash:
       serializedVersion: 2
-      Hash: 1307a5ab0ed52759ad18829f30a6aee9
+      Hash: 5d4903f797a4af0b92568dcc51fc676c
     assemblyName: Assembly-CSharp.dll
     namespaceName: RGSK
     className: Statistics

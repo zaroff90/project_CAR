@@ -48,7 +48,6 @@ namespace RGSK
             }
             PhotonNetwork.CurrentRoom.IsOpen = false;
             //PhotonNetwork.LoadLevel("Room for " + PhotonNetwork.CurrentRoom.PlayerCount);
-            Debug.Log("here" + (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"]);
             int arena = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
             if (arena == 1) PhotonNetwork.LoadLevel("City");
             if (arena == 2) PhotonNetwork.LoadLevel("Greens");
@@ -148,7 +147,6 @@ namespace RGSK
                 level = (int)PhotonNetwork.CurrentRoom.CustomProperties["Arena"];
                 PhotonNetwork.Disconnect();              
             }
-            Debug.Log(global.onlineBots);
             if (time == 0 && global.onlineBots==0)
             {
                 LoadArena();
