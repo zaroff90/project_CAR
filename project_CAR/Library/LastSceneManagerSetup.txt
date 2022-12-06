@@ -19,11 +19,11 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/Racing Tracks/Scenes/Modern City/Downtown.unity
+- path: Assets/Racing Tracks/Scenes/Green Lands/Downtown.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarRace.unity
+- path: Assets/Racing Tracks/Scenes/Green Lands/CarRace.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0

@@ -17,7 +17,7 @@
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Codeless.dll"
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll"
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll"
--a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/UnityEngine.Purchasing.Apple.dll"
+-a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleStub.dll"
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/UnityEngine.Purchasing.AppleMacosStub.dll"
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll"
 -a="/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll"

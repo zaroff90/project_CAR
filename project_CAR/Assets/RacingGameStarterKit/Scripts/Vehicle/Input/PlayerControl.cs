@@ -27,9 +27,12 @@ namespace RGSK
         [Header("Other")]
         public bool autoAcceleration;
 
-        void Awake()
+        void OnEnable()
         {
-
+            if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
             if (GetComponent<Car_Controller>())
                 car_controller = this.GetComponent<Car_Controller>();
 
@@ -50,9 +53,7 @@ namespace RGSK
                 enabled = false;
                 return;
             }
-
             autoAcceleration = (PlayerPrefs.GetString("AutoAcceleration") == "True");
-
             if (inputType == InputTypes.Mobile || inputType == InputTypes.Automatic)
             {
                 if (MobileControlManager.instance)
@@ -154,41 +155,49 @@ namespace RGSK
 
         void MobileControl()
         {
+            Debug.Log("a");
             if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
+            Debug.Log("b");
             float steer = 0;
-
+            Debug.Log("c");
             if (mobileSteerType == MobileSteerType.TiltToSteer)
             {
                 //steer according to the device tilt amount
+                Debug.Log("d");
                 steer = Input.acceleration.x;
             }
             else
             {
+                Debug.Log("e");
                 //steer with the on-screen ui buttons
                 if (InputManager.instance.mobileInput.steerRight != null && InputManager.instance.mobileInput.steerLeft != null)
                 {
+                    Debug.Log("f");
                     steer = InputManager.instance.mobileInput.steerRight.inputValue + (-InputManager.instance.mobileInput.steerLeft.inputValue);
                 }
             }
 
             //send inputs
+            Debug.Log("g");
             float _accel = (!autoAcceleration) ? InputManager.instance.mobileInput.accelerate.inputValue : 1.0f;
             float _brake = InputManager.instance.mobileInput.brake.inputValue;
             float _handbrake = (InputManager.instance.mobileInput.handBrake) ? InputManager.instance.mobileInput.handBrake.inputValue : 0;
             bool _nitro = (InputManager.instance.mobileInput.nitro) ? InputManager.instance.mobileInput.nitro.buttonPressed : false;
-
+            Debug.Log("h");
             SendInputs(_accel, _brake, steer, _handbrake, _nitro);
         }
 
         void SendInputs(float accel, float brake, float steer, float handbrake, bool nitro)
         {
+            Debug.Log("i");
             if (this.photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
             }
+            Debug.Log("j");
             if (car_controller)
             {
                 car_controller.motorInput = (brake <= 0) ? accel : 0;
@@ -196,6 +205,7 @@ namespace RGSK
                 car_controller.steerInput = steer;
                 car_controller.handbrakeInput = handbrake;
                 car_controller.usingNitro = nitro;
+                Debug.Log("k");
             }
 
             if (bike_controller)

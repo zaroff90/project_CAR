@@ -644,7 +644,12 @@ namespace RGSK
             {
                 for (int i = 0; i < RankManager.instance.totalRacers; i++)
                 {
-                    Statistics _statistics = RankManager.instance.racerRanks[i].racer.GetComponent<Statistics>();
+                    Statistics _statistics = null;
+                    if (RankManager.instance.racerRanks[i].racer.GetComponent<Statistics>() != null)
+                    {
+                        _statistics = RankManager.instance.racerRanks[i].racer.GetComponent<Statistics>();
+                    }
+
                     if (_statistics == null) return;
 
                     //Position
@@ -1060,6 +1065,7 @@ namespace RGSK
 
         public void Exit()
         {
+            RaceManager.instance.LogOut();
             //unpause inorder to reset timescale & audiolistener vol
             if (RaceManager.instance._raceState == RaceManager.RaceState.Paused)
             {

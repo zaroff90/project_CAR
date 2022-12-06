@@ -3,11 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+using Photon.Pun;
+using Photon.Realtime;
+
 //Statistics.cs keeps track of the racer's rank, name, vehicle name, lap, race times, race state, saving best times, wrong way detecion etc.
 
 namespace RGSK
 {
-    public class Statistics : MonoBehaviour
+    public class Statistics : MonoBehaviourPun
     {
         [System.Serializable]
         public class RacerDetails
@@ -67,6 +70,7 @@ namespace RGSK
         [HideInInspector]
         public float speedRecord;//speed trap top speed
 
+        public bool human = false;
         void Start()
         {
             if (!RaceManager.instance) { enabled = false; return; }
@@ -314,9 +318,23 @@ namespace RGSK
             if (finishedRace) return;
 
             finishedRace = true;
-
+            if (PhotonNetwork.IsConnected == true)
+            {
+                if (this.photonView.IsMine)
+                {
+                    human = true;
+                }
+            }
+            if (PhotonNetwork.IsConnected == false)
+            {
+                if (this.gameObject.tag == "Player")
+                {
+                    human = true;
+                }
+            }
+    
             //Player finish
-            if (gameObject.tag == "Player")
+            if (human)
             {
                 RaceManager.instance.EndRace(rank);
             }
@@ -458,6 +476,20 @@ namespace RGSK
 
         void CheckForBestTime()
         {
+            if (PhotonNetwork.IsConnected == true)
+            {
+                if (this.photonView.IsMine)
+                {
+                    human = true;
+                }
+            }
+            if (PhotonNetwork.IsConnected == false)
+            {
+                if (this.gameObject.tag == "Player")
+                {
+                    human = true;
+                }
+            }
             //Best Lap Time
             if (bestLapCounter == 0)
             {
@@ -479,7 +511,7 @@ namespace RGSK
             }
 
             //Save Best Track Lap Time
-            if (gameObject.tag == "Player")
+            if (human)
             {
                 //Set new best
                 if (!PlayerPrefs.HasKey("BestTimeFloat" + SceneManager.GetActiveScene().name))

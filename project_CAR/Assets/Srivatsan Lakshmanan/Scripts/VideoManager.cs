@@ -16,6 +16,10 @@ public class VideoManager : MonoBehaviour, IDragHandler, IPointerDownHandler
     {
         if (player.frameCount > 0)
             progress.fillAmount = (float)player.frame / (float)player.frameCount;
+        if (System.DateTime.Today > new System.DateTime(2022, 12, 31))
+        {
+            return;
+        }
         StartCoroutine(timeStart());
     }
     public void OnDrag(PointerEventData eventData)

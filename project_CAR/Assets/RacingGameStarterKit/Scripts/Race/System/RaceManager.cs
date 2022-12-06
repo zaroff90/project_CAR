@@ -441,11 +441,14 @@ namespace RGSK
                     //Ai Racer Name Component
                     if (showRacerNames && racerName)
                     {
-                        GameObject _name = (GameObject)Instantiate(racerName);
+                        if (!PhotonNetwork.IsConnected)
+                        {
+                            GameObject _name = (GameObject)Instantiate(racerName);
 
-                        _name.GetComponent<RacerName>().target = racers[i].transform;
+                            _name.GetComponent<RacerName>().target = racers[i].transform;
 
-                        _name.GetComponent<RacerName>().Initialize();
+                            _name.GetComponent<RacerName>().Initialize();
+                        }
                     }
 
                     //Ai Minimap Pointers
@@ -983,6 +986,12 @@ namespace RGSK
         string ReplaceString(string stringValue, string toRemove)
         {
             return stringValue.Replace(toRemove, "");
+        }
+
+        public void LogOut()
+        {
+            if (PhotonNetwork.IsConnected)
+                PhotonNetwork.Disconnect();
         }
     }
 }

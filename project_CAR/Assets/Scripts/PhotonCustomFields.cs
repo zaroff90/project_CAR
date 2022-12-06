@@ -18,8 +18,13 @@ namespace RGSK
         public MinimapFollowTarget minicam;
 
         public string OT;
+
         private void Start()
         {
+            if (this.photonView.IsMine == true && PhotonNetwork.IsConnected == true)
+            {
+                this.GetComponent<PlayerControl>().enabled = true;
+            }
             playcam = GameObject.Find("Player Camera").GetComponent<PlayerCamera>();
             orbitcam = GameObject.Find("Starting Grid Camera").GetComponent<OrbitAroundCamera>();
             cinecam = GameObject.Find("Cinematic Camera").GetComponent<CinematicCamera>();
@@ -42,14 +47,16 @@ namespace RGSK
             {
                 raceui.player = this.GetComponent<Statistics>();
 
-
                 playcam.target = this.transform;
                 playcam.rigid = this.GetComponent<Rigidbody>();
                 playcam.GetFixedCameraPositions();
                 orbitcam.target = this.transform;
                 cinecam.target = this.transform;
+                cinecam.gameObject.GetComponent<PlayerCamera>().target = this.transform;
+                cinecam.gameObject.GetComponent<PlayerCamera>().rigid = this.GetComponent<Rigidbody>();
+                cinecam.gameObject.GetComponent<PlayerCamera>().GetFixedCameraPositions();
                 //minicam.target = this.transform;
-                
+
             }
             OT = this.GetComponent<PhotonView>().OwnerActorNr.ToString();
         }

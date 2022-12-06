@@ -20,18 +20,15 @@ namespace RGSK
         {
             //create an instance
             instance = this;
-
             //sets Touch to be default control type
             if (!PlayerPrefs.HasKey("MobileControlType"))
             {
                 PlayerPrefs.SetString("MobileControlType", "Touch");
             }
-
             if (SystemInfo.deviceType != DeviceType.Handheld)
             {
                 this.gameObject.SetActive(false);
             }
-
         }
 
         public void UpdateControls(PlayerControl control)
@@ -52,7 +49,6 @@ namespace RGSK
             }
 
             playerControl = control;
-
             SetMobileUiButtons();
         }
 
@@ -61,7 +57,6 @@ namespace RGSK
         /// </summary>
         public void SetMobileUiButtons()
         {
-
             if (!InputManager.instance) return;
 
             UIButton[] allUIButtons = transform.GetComponentsInChildren<UIButton>();
