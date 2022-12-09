@@ -350,8 +350,8 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.Purchasing.AppleCore.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/AppleMacosStub/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/AppleMacosStub/OSXStoreBindings.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/AppleMacosStub/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/AppleMacosStub/OSXStoreBindings.cs"
 -langversion:9.0
 
 /deterministic

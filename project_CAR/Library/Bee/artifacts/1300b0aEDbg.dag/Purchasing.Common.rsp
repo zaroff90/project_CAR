@@ -346,12 +346,14 @@
 -r:"/Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Core.Internal.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Core.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/Common/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/Common/INativeStore.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/Common/MiniJSON.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/Common/VersionCheck.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/Common/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/Common/INativeStore.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/Common/MiniJSON.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/Common/VersionCheck.cs"
 -langversion:9.0
 
 /deterministic

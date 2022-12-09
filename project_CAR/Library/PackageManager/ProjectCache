@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638061955960000000
-    m_Hash: 1150124282
+      ticks: 638061960390000000
+    m_Hash: 2583340283
   m_LockFileStatus:
     m_FilePath: /Users/bsmith/code/zaroff/project_CAR/project_CAR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638061955960000000
-    m_Hash: 592030199
+      ticks: 638061960400000000
+    m_Hash: 967325917
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -597,12 +597,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.purchasing@4.1.5
+- packageId: com.unity.purchasing@4.5.1
   testable: 0
   isDirectDependency: 1
-  version: 4.1.5
+  version: 4.5.1
   source: 1
-  resolvedPath: /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.purchasing@4.1.5
+  resolvedPath: /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.purchasing@4.5.1
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -710,7 +710,9 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.0.1
+    version: 1.3.1
+  - name: com.unity.services.analytics
+    version: 4.0.1
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -730,6 +732,8 @@ m_ResolvedPackages:
     version: 1.4.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
+  - name: com.unity.services.analytics
+    version: 4.0.1
   keywords:
   - purchasing
   - iap
@@ -743,13 +747,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637888998470000000
+  datePublishedTicks: 638024573790000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: e85a08b1c40e0237d1455cd2032430b72b82d183
+    revision: 0e6a0e037cbfe72c55e5eff3c186ef29484f6636
     path: 
   unityLifecycle:
     version: 4.1.5
@@ -3623,6 +3627,94 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.4.0
+    nextVersion: 
+- packageId: com.unity.services.analytics@4.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.0.1
+  source: 1
+  resolvedPath: /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.services.analytics@4.0.1
+  assetPath: Packages/com.unity.services.analytics
+  name: com.unity.services.analytics
+  displayName: Analytics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Analytics package automatically collects core events and
+    user properties when someone uses your game or application, and enables you to
+    track specific in-game actions your user performs by defining custom events.
+    The data collected from this package is surfaced in the Unity dashboard where
+    you can use it to gather user insights, segment your player base and make informed
+    decisions around the optimization of your game.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 2.0.7-pre.4
+    - 2.0.7-pre.6
+    - 2.0.7-pre.7
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    compatible:
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    verified: 4.0.1
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.4.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.4.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637889192380000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: dac564bca5dae194afa944a6b22849513d412ec2
+    path: 
+  unityLifecycle:
+    version: 4.0.1
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0

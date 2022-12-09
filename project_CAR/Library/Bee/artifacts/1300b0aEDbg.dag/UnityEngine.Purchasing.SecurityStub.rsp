@@ -349,11 +349,11 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.Purchasing.SecurityCore.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityStub/AppleValidator.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityStub/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityStub/CrossPlatformValidator.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityStub/GooglePlayReceipt.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityStub/Obfuscator.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityStub/AppleValidator.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityStub/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityStub/CrossPlatformValidator.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityStub/GooglePlayReceipt.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityStub/Obfuscator.cs"
 -langversion:9.0
 
 /deterministic

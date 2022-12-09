@@ -348,10 +348,10 @@
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityCore/AppleReceipt.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityCore/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityCore/IAPSecurityException.cs"
-"Library/PackageCache/com.unity.purchasing@4.1.5/Runtime/SecurityCore/IPurchaseReceipt.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityCore/AppleReceipt.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityCore/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityCore/IAPSecurityException.cs"
+"Library/PackageCache/com.unity.purchasing@4.5.1/Runtime/SecurityCore/IPurchaseReceipt.cs"
 -langversion:9.0
 
 /deterministic

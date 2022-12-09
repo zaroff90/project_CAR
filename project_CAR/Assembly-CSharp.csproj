@@ -56,22 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/SoundManager.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/CinematicCamera.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/MenuManager.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Other/Wheels.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/OrbitAroundCamera.cs" />
-    <Compile Include="Assets/UICursor/CoreScripts/UICursorBehaviour.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/RaceUI.cs" />
     <Compile Include="Assets/Scripts/menuOption.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
-    <Compile Include="Assets/AnchorSnap/AnchorSnap.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/DriftPointController.cs" />
-    <Compile Include="Assets/US Racing Cars/Scripts/Configs/RS_GameConfig.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/MobileControlManager.cs" />
-    <Compile Include="Assets/US Racing Cars/Scripts/Templates/RS_CarTemplate.cs" />
-    <Compile Include="Assets/Scripts/Persistent.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/ChildCameraPosition.cs" />
@@ -80,65 +70,80 @@
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/ProgressTracker.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Configs/RS_GameData.cs" />
     <Compile Include="Assets/Scripts/Duplicate.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/PlayerCamera.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/PathCreator.cs" />
-    <Compile Include="Assets/UICursor/SampleScenes/Scripts/ButtonActions.cs" />
     <Compile Include="Assets/Scripts/Launcher.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/CheckpointContainer.cs" />
     <Compile Include="Assets/UICursor/CoreScripts/Old System/UICursorInputModule.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs" />
     <Compile Include="Assets/US Racing Cars/Art/Shaders/JMO Assets/MatCap Shaders/Demo/Assets/MC_AutoRotate.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/UIButton.cs" />
+    <Compile Include="Assets/Scripts/testOwner.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/CameraManager.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/RacerPointer.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/RacerName.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Controllers/Car_Controller.cs" />
+    <Compile Include="Assets/UICursor/CoreScripts/UICursorController.cs" />
+    <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
+    <Compile Include="Assets/US Racing Cars/Scripts/Utils/PrefabAsyncLoader.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/FramerateCounter.cs" />
+    <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
+    <Compile Include="Assets/UICursor/SampleScenes/Scripts/Draggable3DCollider.cs" />
+    <Compile Include="Assets/Srivatsan Lakshmanan/Scripts/VideoManager.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Input/GuestController.cs" />
+    <Compile Include="Assets/UICursor/SampleScenes/Scripts/Selectable3DCollider.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/ReplayManager.cs" />
+    <Compile Include="Assets/Scripts/OnlineGameManager.cs" />
+    <Compile Include="Assets/US Racing Cars/Scripts/Configs/RS_CarsConfig.cs" />
+    <Compile Include="Assets/UICursor/SampleScenes/Scripts/CursorController.cs" />
+    <Compile Include="Assets/Billboard Ads/adSwap.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/IKBoneViewer.cs" />
+    <Compile Include="Assets/US Racing Cars/Scripts/Effects/RS_VisualWheel.cs" />
+    <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets/Scripts/MusicPlayer.cs" />
+    <Compile Include="Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/CinematicCamera.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/MenuManager.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/OrbitAroundCamera.cs" />
+    <Compile Include="Assets/UICursor/CoreScripts/UICursorBehaviour.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/RaceUI.cs" />
+    <Compile Include="Assets/AnchorSnap/AnchorSnap.cs" />
+    <Compile Include="Assets/US Racing Cars/Scripts/Configs/RS_GameConfig.cs" />
+    <Compile Include="Assets/US Racing Cars/Scripts/Templates/RS_CarTemplate.cs" />
+    <Compile Include="Assets/Scripts/Persistent.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/PlayerCamera.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/PathCreator.cs" />
+    <Compile Include="Assets/UICursor/SampleScenes/Scripts/ButtonActions.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/CameraSwitcher.cs" />
     <Compile Include="Assets/US Racing Cars/Art/Shaders/JMO Assets/MatCap Shaders/Demo/Assets/MC_SwitchTexture.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Utils/NonMonoSingleton.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Input/PlayerControl.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/WaypointArrow.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Other/SurfaceManager.cs" />
+    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/WaypointArrow.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/GhostVehicle.cs" />
     <Compile Include="Assets/Scripts/DayNight.cs" />
     <Compile Include="Assets/UICursor/CoreScripts/Old System/UICursorStandaloneInputModuleEditor.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/UIButton.cs" />
     <Compile Include="Assets/Scripts/PhotonCustomFields.cs" />
-    <Compile Include="Assets/Scripts/testOwner.cs" />
     <Compile Include="Assets/UICursor/CoreScripts/New System/UICursorVirtualMouseInput.cs" />
     <Compile Include="Assets/Scripts/global.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/PlayerData.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Enums/RS_CarCreationMode.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/SpawnpointContainer.cs" />
     <Compile Include="Assets/UICursor/CoreScripts/Old System/UICursorStandaloneInputModule.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/CameraManager.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/RacerPointer.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/WaypointCircuit.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Input/OpponentControl.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/RacerName.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Controllers/Car_Controller.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Core/Controllers/RS_GarageController.cs" />
-    <Compile Include="Assets/UICursor/CoreScripts/UICursorController.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/Checkpoint.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
-    <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/RankManager.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Core/Loaders/RS_AssetsLoader.cs" />
-    <Compile Include="Assets/US Racing Cars/Scripts/Utils/PrefabAsyncLoader.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/Brakezone.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Core/Factories/RS_CarFactory.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/FramerateCounter.cs" />
     <Compile Include="Assets/UICursor/SampleScenes/Scripts/UICursorCustomInputSystem.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/RaceRewards.cs" />
-    <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" />
-    <Compile Include="Assets/UICursor/SampleScenes/Scripts/Draggable3DCollider.cs" />
-    <Compile Include="Assets/Srivatsan Lakshmanan/Scripts/VideoManager.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Controllers/Motorbike_Controller.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Input/GuestController.cs" />
-    <Compile Include="Assets/UICursor/SampleScenes/Scripts/Selectable3DCollider.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/ReplayManager.cs" />
-    <Compile Include="Assets/Scripts/OnlineGameManager.cs" />
     <Compile Include="Assets/US Racing Cars/Scripts/Effects/RS_Rotate.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs" />
-    <Compile Include="Assets/US Racing Cars/Scripts/Configs/RS_CarsConfig.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/Reflection.cs" />
-    <Compile Include="Assets/UICursor/SampleScenes/Scripts/CursorController.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/IKRacer.cs" />
     <Compile Include="Assets/UICursor/SampleScenes/Scripts/RotateOnSelected.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/System/RaceManager.cs" />
@@ -149,17 +154,12 @@
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Vehicle/Other/Skidmark.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/TextAlpha.cs" />
     <Compile Include="Assets/UICursor/SampleScenes/Scripts/HoldButton.cs" />
-    <Compile Include="Assets/Billboard Ads/adSwap.cs" />
-    <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Helpers/IKBoneViewer.cs" />
     <Compile Include="Assets/Scripts/menuGamePad.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Others/InputManager.cs" />
-    <Compile Include="Assets/US Racing Cars/Scripts/Effects/RS_VisualWheel.cs" />
-    <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Race/Cameras/MinimapFollowTarget.cs" />
     <Compile Include="Assets/RacingGameStarterKit/Scripts/Misc/DataLoader.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" />
-    <Compile Include="Assets/Scripts/MusicPlayer.cs" />
     <Compile Include="Assets/UICursor/SampleScenes/Scripts/FocusOnEnable.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -870,14 +870,14 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -885,26 +885,14 @@
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualEffectGraph.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
@@ -912,17 +900,8 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -936,23 +915,65 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -965,6 +986,12 @@
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
@@ -993,21 +1020,9 @@
       <Project>{03477655-36B6-26D1-90A0-49B270E2F593}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{AA5DCC31-FDE5-8704-A6DD-A776F2061B57}</Project>
-      <Name>PhotonRealtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{57CBB072-6006-E827-99FA-FA193F9D6A9F}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{5109BE63-C338-9D7F-7CAD-10A355FEAB35}</Project>
       <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{878B3302-C589-D662-FDAB-1E5F84A534B7}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
       <Project>{232665DD-41A1-A1E6-0863-E2F7828CA692}</Project>
@@ -1016,6 +1031,18 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{CFC92986-06E3-4BAB-7CFA-9DA8A450594E}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{AA5DCC31-FDE5-8704-A6DD-A776F2061B57}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{57CBB072-6006-E827-99FA-FA193F9D6A9F}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{878B3302-C589-D662-FDAB-1E5F84A534B7}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

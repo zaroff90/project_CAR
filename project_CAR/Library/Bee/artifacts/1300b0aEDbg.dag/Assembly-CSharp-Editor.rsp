@@ -376,6 +376,8 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Searcher.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Core.Environments.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/Unity.Services.Core.ref.dll"
