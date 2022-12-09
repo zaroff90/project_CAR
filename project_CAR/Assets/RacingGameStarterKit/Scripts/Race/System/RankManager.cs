@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+
 namespace RGSK
 {
     public class RankManager : MonoBehaviour

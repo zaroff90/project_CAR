@@ -1,0 +1,665 @@
+Unity Editor version:    2021.3.5f1 (40eb3a945986)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker23
+-projectPath
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
+-logFile
+Logs/AssetImportWorker23.log
+-srvPort
+50133
+Successfully changed project path to: /Users/bsmith/code/zaroff/project_CAR/project_CAR
+/Users/bsmith/code/zaroff/project_CAR/project_CAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 169.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/bsmith/code/zaroff/project_CAR/project_CAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+BenQ EW3270U preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56953
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006962 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 161.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1104ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (164ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013879 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bsmith/code/zaroff/project_CAR/project_CAR/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 168.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2364ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1919ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (511ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (993ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5283 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (65.5 KB). Loaded Objects now: 5783.
+Memory consumption went from 166.1 MB to 166.0 MB.
+Total: 7.731882 ms (FindLiveObjects: 0.867976 ms CreateObjectMapping: 0.910410 ms MarkObjects: 5.682468 ms  DeleteObjects: 0.269572 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4702.973865 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_3x-to-2x.wav
+  artifactKey: Guid(32455eda8f7fd4702b5c9bcaeac14e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_3x-to-2x.wav using Guid(32455eda8f7fd4702b5c9bcaeac14e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1172b2e9ddac55ec1e5dc796b3e14a4') in 0.314548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_2x-to-3x.wav
+  artifactKey: Guid(88d9838286ff04dc992760d0af4980fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_2x-to-3x.wav using Guid(88d9838286ff04dc992760d0af4980fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20491e33980115a289b24ff56a059b44') in 0.006437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_4x-to-3x.wav
+  artifactKey: Guid(7c2970f99e2af4d1ead094c80d49856e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_4x-to-3x.wav using Guid(7c2970f99e2af4d1ead094c80d49856e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c4d6fa42abd0fab096750f878063968') in 0.006240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_accel_fast_01.wav
+  artifactKey: Guid(8cd6ebada3ccd4b02b7f16f67781ca38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_accel_fast_01.wav using Guid(8cd6ebada3ccd4b02b7f16f67781ca38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae232017d644f8325b8826d36c54d29b') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_d_engine_loop_0x.wav
+  artifactKey: Guid(b4f0f377567ae4242af1c21fe3a16fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_d_engine_loop_0x.wav using Guid(b4f0f377567ae4242af1c21fe3a16fe5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f65b2e72e11ff1f08ccd5b4bbb56e92') in 0.005911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_engine_loop_0x.wav
+  artifactKey: Guid(269194e9dbc66404690b8224ad8dca33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_engine_loop_0x.wav using Guid(269194e9dbc66404690b8224ad8dca33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e836820540908b3b6e1ae46a77bba52') in 0.007235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs
+  artifactKey: Guid(4bcfebc9a2f1074488adedd1fe84e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs using Guid(4bcfebc9a2f1074488adedd1fe84e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25641caf4894027d9fc23ed42e596991') in 0.177034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/US Racing Cars/Scripts/Utils/PrefabAsyncLoader.cs
+  artifactKey: Guid(88bb7d56ad2084839bc817f4b57bf773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/US Racing Cars/Scripts/Utils/PrefabAsyncLoader.cs using Guid(88bb7d56ad2084839bc817f4b57bf773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68849ff2be22a9678559515072cbdec3') in 0.002579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_1x-to-2x.wav
+  artifactKey: Guid(f30e8753b465c4d8a835feb3dce008cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_1x-to-2x.wav using Guid(f30e8753b465c4d8a835feb3dce008cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23041c53f9f4b4186aa20f38ee77c686') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatClient.cs
+  artifactKey: Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatClient.cs using Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9ffcff838f2fadab45994a96c0e35') in 0.002436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_decel_fast_01.wav
+  artifactKey: Guid(871f2cec6676240eaafff70e15007863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_decel_fast_01.wav using Guid(871f2cec6676240eaafff70e15007863) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7865255c36e0fb74f9c33684d0790705') in 0.004284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_b_engine_loop_1x.wav
+  artifactKey: Guid(61eda349c8b524f849246464fae09f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_b_engine_loop_1x.wav using Guid(61eda349c8b524f849246464fae09f21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0d10bf15ef8781f235838fb0109dfba') in 0.004152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_loop_1x.wav
+  artifactKey: Guid(6071249f8293e401aab1bbfb81b43d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_loop_1x.wav using Guid(6071249f8293e401aab1bbfb81b43d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e22708acaf2b6eba8671990ca676bcfe') in 0.004703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_2x-to-3x.wav
+  artifactKey: Guid(e7f7ee992ac2742c2b0c09ab0303fe59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_2x-to-3x.wav using Guid(e7f7ee992ac2742c2b0c09ab0303fe59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1547ee5b493ffd39d56fb28d9ea69ffe') in 0.004783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_engine_loop_1x.wav
+  artifactKey: Guid(067f5d4a25ba04326b5d42a50b0e75ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_engine_loop_1x.wav using Guid(067f5d4a25ba04326b5d42a50b0e75ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ebeab9ba5f7bad620b1c92bd6a66b77') in 0.005133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_2x-to-1x.wav
+  artifactKey: Guid(41b8f482fc80b4d7290026bf2e669e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_2x-to-1x.wav using Guid(41b8f482fc80b4d7290026bf2e669e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fbc0158e05b714a520cd3354b3a7b5a') in 0.007039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_3x-to-2x.wav
+  artifactKey: Guid(13e02ea55f7914baaa35568876c7f527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_b_engine_3x-to-2x.wav using Guid(13e02ea55f7914baaa35568876c7f527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4677ac8ca139707ac86d2c0df1021f6') in 0.004410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_engine_4x-to-3x.wav
+  artifactKey: Guid(5f07dfb7ea5aa49b0a645f76dd3fe64d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_d_engine_4x-to-3x.wav using Guid(5f07dfb7ea5aa49b0a645f76dd3fe64d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd32c4cf76f1e0fed75635798ce2becfc') in 0.004619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_decel_slow_02.wav
+  artifactKey: Guid(74dea159aa10942b4bdda6839fad9166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_decel_slow_02.wav using Guid(74dea159aa10942b4bdda6839fad9166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6f504370eea71a311c3cc9099546c48') in 0.006473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_3x-to-4x.wav
+  artifactKey: Guid(2aa21da549ddb4434b609692c68a81b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_3x-to-4x.wav using Guid(2aa21da549ddb4434b609692c68a81b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6219ad2b5aaae431c49bc682b8a55c44') in 0.005681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_engine_loop_4x.wav
+  artifactKey: Guid(48cb9d107edc64441b9bd5b26364ff58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_engine_loop_4x.wav using Guid(48cb9d107edc64441b9bd5b26364ff58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d7d5ab64b215f2f62f1eee6daf74d9a') in 0.004954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_engine_stop.wav
+  artifactKey: Guid(e049084ffbf61404ea4c729e8284b9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_engine_stop.wav using Guid(e049084ffbf61404ea4c729e8284b9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91a864a407d71190c09f5bbe32e3ea70') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_passby_02.wav
+  artifactKey: Guid(c3425a89ff0bc4e848825bd5bd22e03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_passby_02.wav using Guid(c3425a89ff0bc4e848825bd5bd22e03a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73db7d5d7ca39f40bbc11cf79cc22262') in 0.004520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPropertiesListedInLobbyProperty.cs
+  artifactKey: Guid(3597ecc77cdd74c1fbd06202905bbd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPropertiesListedInLobbyProperty.cs using Guid(3597ecc77cdd74c1fbd06202905bbd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f053c6954a47582a5f7fe94c3daa45') in 0.002377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_loop_2x.wav
+  artifactKey: Guid(c157f2c513ccd49bbb1e35c989b41564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_loop_2x.wav using Guid(c157f2c513ccd49bbb1e35c989b41564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59794f6127bf9919cfd4951d050017c5') in 0.004117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Animator
+  artifactKey: Guid(31f7bd43c723b64449fa0af0b5f275ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Animator using Guid(31f7bd43c723b64449fa0af0b5f275ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1389919c3a14da3bc30b061a74942f') in 0.000980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/CreateRoomUiForm.cs
+  artifactKey: Guid(93560c151be5f43aaa41c69fba615970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Forms/CreateRoomUiForm.cs using Guid(93560c151be5f43aaa41c69fba615970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8b952b1867191d94a67ad577e0f841') in 0.001542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Racing Tracks/Scenes/Classical City/City/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9598b9f5cc6804823868e643df881b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Racing Tracks/Scenes/Classical City/City/Lightmap-15_comp_dir.png using Guid(9598b9f5cc6804823868e643df881b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '853003a306e95dbc3da08fdcfd79fd73') in 0.210683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs
+  artifactKey: Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs using Guid(1fbabafd914a48f4eb6108d8d8f43d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7936cd1c0d951876f55dd98f470f0c4') in 0.001366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Racing Tracks/Scenes/Green Lands/Greens/Lightmap-12_comp_dir.png
+  artifactKey: Guid(77687f572fcc442449a4272a21b4082f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Racing Tracks/Scenes/Green Lands/Greens/Lightmap-12_comp_dir.png using Guid(77687f572fcc442449a4272a21b4082f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17243e264a135fc26576ec837ca88c1b') in 0.008787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/RacingGameStarterKit/Scripts/Race/System/RankManager.cs
+  artifactKey: Guid(15b8d5f725719654ab37b0e6bcb5e8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RacingGameStarterKit/Scripts/Race/System/RankManager.cs using Guid(15b8d5f725719654ab37b0e6bcb5e8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18a1c9326de88fde4233d299d7c7839') in 0.001270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs
+  artifactKey: Guid(f8d56a54ae062da4a87516fb994f4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs using Guid(f8d56a54ae062da4a87516fb994f4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c8bc934f9277ddbfd3340f2368c76e') in 0.001244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Racing Tracks/Scenes/Classical City/City/Lightmap-5_comp_dir.png
+  artifactKey: Guid(e7cbbfbd3d48e460dbd00993274f3e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Racing Tracks/Scenes/Classical City/City/Lightmap-5_comp_dir.png using Guid(e7cbbfbd3d48e460dbd00993274f3e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b995872af09dd5e62af1c8908ee29ba7') in 0.034552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs
+  artifactKey: Guid(b28dd60f6abf16d4094cf0f642a043e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs using Guid(b28dd60f6abf16d4094cf0f642a043e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2335b0af686b1946c95dee7c5e1f2802') in 0.001357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs
+  artifactKey: Guid(98fac77b304554f238a61572f5720187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerManager.cs using Guid(98fac77b304554f238a61572f5720187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556b7382faf5695a3271b9195072437d') in 0.001450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_engine_3x-to-4x.wav
+  artifactKey: Guid(36cd4051b7e79438595089ea806e023c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_e_engine_3x-to-4x.wav using Guid(36cd4051b7e79438595089ea806e023c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89125d3ed475591e0f024c6470177af3') in 0.005276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/Title/Lightmap-8_comp_light.exr
+  artifactKey: Guid(d2a17f0a94e314c37972c00c761e83be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Title/Lightmap-8_comp_light.exr using Guid(d2a17f0a94e314c37972c00c761e83be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '430dd77a4b3a4b1b29c17f2b3347da70') in 0.147750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_accel_slow_01.wav
+  artifactKey: Guid(5d0d2b174e05742afbfc75ef0ce0640c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_accel_slow_01.wav using Guid(5d0d2b174e05742afbfc75ef0ce0640c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82b096c29708aa1814b66b62306865a6') in 0.004694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_1x-to-0x.wav
+  artifactKey: Guid(2ca1826fe86394b7b8ce39af35ce6992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_1x-to-0x.wav using Guid(2ca1826fe86394b7b8ce39af35ce6992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0574043e59a722ae2ecdbd3a0411fa1a') in 0.004251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_start.wav
+  artifactKey: Guid(59bb1e514c940465dadd594c40221670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_start.wav using Guid(59bb1e514c940465dadd594c40221670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f1022c26571020ad6e4641c41aec02d') in 0.006443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_b_passby_01.wav
+  artifactKey: Guid(7b132c40a899a483985b6def90605b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_b_passby_01.wav using Guid(7b132c40a899a483985b6def90605b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3c7b8cd94d06fb03e505343c9a63ce1') in 0.004494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_passby_01.wav
+  artifactKey: Guid(1065348a9215c45349b809068c32a809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_passby_01.wav using Guid(1065348a9215c45349b809068c32a809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b733b6289c5a4adb71d9cdd65b4e15b') in 0.006137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_2x-to-1x.wav
+  artifactKey: Guid(8d04c45a8aca146e9868c7dbf048a28f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_engine_2x-to-1x.wav using Guid(8d04c45a8aca146e9868c7dbf048a28f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa9b269b01b77612afac6de614faceb0') in 0.005009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_1x-to-2x.wav
+  artifactKey: Guid(42c3d745b49474a7a8f14c7f8dcf3a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_1x-to-2x.wav using Guid(42c3d745b49474a7a8f14c7f8dcf3a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef086df1754a059dd955a17e9f949338') in 0.004791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_c_engine_loop_0x.wav
+  artifactKey: Guid(2ad2cc47dcc4e4dc6a3e1fdf8a0fa504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_c_engine_loop_0x.wav using Guid(2ad2cc47dcc4e4dc6a3e1fdf8a0fa504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac1530a0e6baf0777f5e69c243179766') in 0.005430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_decel_fast_01.wav
+  artifactKey: Guid(772090cf1b2ab402281137eb3f07c644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_decel_fast_01.wav using Guid(772090cf1b2ab402281137eb3f07c644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '604e1aecde8d77cadae39f6084fb5b36') in 0.005360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_passby_02.wav
+  artifactKey: Guid(4ff7e2344fe474942bd3aeaa4b810f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_passby_02.wav using Guid(4ff7e2344fe474942bd3aeaa4b810f0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b774233ef60f8cd2fa4a94618df854d') in 0.004520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_start.wav
+  artifactKey: Guid(4aa3a70ec4a914d4e9f78cc57948b24f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_a_engine_start.wav using Guid(4aa3a70ec4a914d4e9f78cc57948b24f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4631e0320aafbd1f2a2636983c142f48') in 0.004502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_1x-to-2x.wav
+  artifactKey: Guid(32066ed85f21c4527a8dc0c81b661409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_1x-to-2x.wav using Guid(32066ed85f21c4527a8dc0c81b661409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55bbeb40a17bf792ab8fdd6161318c3a') in 0.004027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_d_passby_02.wav
+  artifactKey: Guid(7b70631a2e2f34f30bec93ab7cd2df97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_d_passby_02.wav using Guid(7b70631a2e2f34f30bec93ab7cd2df97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c219626ea3e6fb3088ead6298c0293e') in 0.005148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_accel_fast_02.wav
+  artifactKey: Guid(945a5b692e5e44e2f96611677653fb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_accel_fast_02.wav using Guid(945a5b692e5e44e2f96611677653fb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f75b7e02d2b22e77ad51f05bc90efd04') in 0.004583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts
+  artifactKey: Guid(08e23bebf2a53eb488ac85b9cb4b41fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts using Guid(08e23bebf2a53eb488ac85b9cb4b41fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3982e95075236f22cf5b28d68e71a4c') in 0.001021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_passby_02.wav
+  artifactKey: Guid(a66080fcd7c8540d580957918d845432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_passby_02.wav using Guid(a66080fcd7c8540d580957918d845432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e2ce8f5d34cdd56b5431d2c5f4e069f') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_engine_4x-to-3x.wav
+  artifactKey: Guid(392d9d8bc471c456db1bd5227f20be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_f_engine_4x-to-3x.wav using Guid(392d9d8bc471c456db1bd5227f20be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7716a756d6fd4e861b5936fcebf010a5') in 0.004493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_passby_01.wav
+  artifactKey: Guid(21c2e969520754eec9ba1c4d8e401a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_a_passby_01.wav using Guid(21c2e969520754eec9ba1c4d8e401a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec353811e4a8818dbec6e4ba998885a3') in 0.004390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_a_passby_01.wav
+  artifactKey: Guid(38f6ae8f33c764c9f81dfdaaeac04206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_a_passby_01.wav using Guid(38f6ae8f33c764c9f81dfdaaeac04206) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fa3c3ac79821e3c0995313e5a731833') in 0.006090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_0x-to-1x.wav
+  artifactKey: Guid(0baaae0881b34492ebbd9d6ea3ddf1c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_c_engine_0x-to-1x.wav using Guid(0baaae0881b34492ebbd9d6ea3ddf1c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6745460a06c94bac1e21dc8d09333362') in 0.004575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_engine_4x-to-3x.wav
+  artifactKey: Guid(38ab959b989dc44eab3beb0e03c6c13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_a_engine_4x-to-3x.wav using Guid(38ab959b989dc44eab3beb0e03c6c13c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1a74ec0c9e226d014ae1830f54af5da4') in 0.004441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_c_engine_3x-to-2x.wav
+  artifactKey: Guid(bfa065c8f202b44bb80152edc53035c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad/car2_offroad_c_engine_3x-to-2x.wav using Guid(bfa065c8f202b44bb80152edc53035c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e83e5c58421532f758c4e60b4e159ad5') in 0.004364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_b_engine_2x-to-3x.wav
+  artifactKey: Guid(7ac44232ea936493da476478136fa151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_b_engine_2x-to-3x.wav using Guid(7ac44232ea936493da476478136fa151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a41dce4e393f34d4d53faab9f9fbd64') in 0.004713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(b0fc2c4385e7342b48d7dd7dafd01dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources using Guid(b0fc2c4385e7342b48d7dd7dafd01dc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd70c8bdae8dcaa6361599cb3714a36c4') in 0.003744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/RacingGameStarterKit/Scenes/Demo/Car/CarRace.unity
+  artifactKey: Guid(9a19d50ac7cd1944f9e9ff00df624f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RacingGameStarterKit/Scenes/Demo/Car/CarRace.unity using Guid(9a19d50ac7cd1944f9e9ff00df624f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69a48a1326cc2b066ac632c4abf3f9d0') in 0.003340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Srivatsan Lakshmanan/Scripts/VideoManager.cs
+  artifactKey: Guid(51a7ee2cbd64a9143bd7e97e58fb421f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Srivatsan Lakshmanan/Scripts/VideoManager.cs using Guid(51a7ee2cbd64a9143bd7e97e58fb421f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8e289a5108c772fb6522f0f4b79a3a4') in 0.008051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RacingGameStarterKit/Scripts/Misc/MobileControlManager.cs
+  artifactKey: Guid(68219d995abf1564b80c59c64fb3cf77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RacingGameStarterKit/Scripts/Misc/MobileControlManager.cs using Guid(68219d995abf1564b80c59c64fb3cf77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9179b21aca94dbf7fc1e0da550cba1ca') in 0.007174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_b_engine_loop_1x.wav
+  artifactKey: Guid(2cbd5c2d885a94d6f94fb7d6caf5d109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Pickup/car2_pickup_b_engine_loop_1x.wav using Guid(2cbd5c2d885a94d6f94fb7d6caf5d109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b5bf0ea861a699edae01d70ca6ab679') in 0.003684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sound/sfx/Mustang/Mustang.song
+  artifactKey: Guid(272a413a5701c4829b1ab9ab3e173c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/sfx/Mustang/Mustang.song using Guid(272a413a5701c4829b1ab9ab3e173c8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '028af89a177275da14b83ad753b07539') in 0.154361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scripts/OnlineGameManager.cs
+  artifactKey: Guid(66a85626c8fbe4b4f82a0c8db8f62b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/OnlineGameManager.cs using Guid(66a85626c8fbe4b4f82a0c8db8f62b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f3ad52e07aa40e72e30f6d604307afa') in 0.006060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Billboard Ads/5163E744-9DC6-4E54-92A3-8365F4A61812.jpeg
+  artifactKey: Guid(715760098934f4ba7b3fe52e3478aa2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Billboard Ads/5163E744-9DC6-4E54-92A3-8365F4A61812.jpeg using Guid(715760098934f4ba7b3fe52e3478aa2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4614a9628d418781e4bb9115bce064e4') in 3.559417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Racing Tracks/Scenes/Modern City/Night Time.unity
+  artifactKey: Guid(7ce2138d39c485e4c85b359578d06cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Racing Tracks/Scenes/Modern City/Night Time.unity using Guid(7ce2138d39c485e4c85b359578d06cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84f42144cd64861cf8bf8f3e02026942') in 0.003562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Racing Tracks/Scenes/Modern City/Night TimeSettings.lighting
+  artifactKey: Guid(19214ff0c7c0341aca3a2ce71cfe290a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Racing Tracks/Scenes/Modern City/Night TimeSettings.lighting using Guid(19214ff0c7c0341aca3a2ce71cfe290a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44a6bfe07afd507b01fbadbf6ca9d527') in 0.154151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Srivatsan Lakshmanan/Prefabs
+  artifactKey: Guid(0302cc67666745d40b3792a27cf0cb8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Srivatsan Lakshmanan/Prefabs using Guid(0302cc67666745d40b3792a27cf0cb8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '557c23504447b61fae4b30f6f24880a3') in 0.004684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sound/sfx/Mustang/Mustang - Mustang quick hit and rattle 2.wav
+  artifactKey: Guid(9cf1bf88e0fa847bdb72e93038ad6107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/sfx/Mustang/Mustang - Mustang quick hit and rattle 2.wav using Guid(9cf1bf88e0fa847bdb72e93038ad6107) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe607f5c56c5f435e8c693d6be3cd022') in 0.004946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Res/Cars/AE_CARS/SAMOCHODY/Car_30/FBX/Materials/Body_D_30__skull_png.mat
+  artifactKey: Guid(75e288778dfddd24a8332b3308f4fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Res/Cars/AE_CARS/SAMOCHODY/Car_30/FBX/Materials/Body_D_30__skull_png.mat using Guid(75e288778dfddd24a8332b3308f4fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62007a9070a1de6d184b880069f0ee87') in 0.151358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Animation/animMenu.anim
+  artifactKey: Guid(5f3c1d51265234f28a2d1f8105cd90df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/animMenu.anim using Guid(5f3c1d51265234f28a2d1f8105cd90df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16e8935ffc34e0605d0fcd4e2be6ca48') in 0.142188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_accel_fast_01.wav
+  artifactKey: Guid(7254b119f81e14859bdac42bd6c31c1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/City/car2_city_d_accel_fast_01.wav using Guid(7254b119f81e14859bdac42bd6c31c1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a7836d058b857d2951b20c4da4514f3') in 0.003671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Srivatsan Lakshmanan
+  artifactKey: Guid(5b0734e5a133e4dd0b8c51249a2de5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Srivatsan Lakshmanan using Guid(5b0734e5a133e4dd0b8c51249a2de5ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ce1f223fe0c5e854081540dfb4f41c0') in 0.003806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Animation/animMusicOutscreen.anim
+  artifactKey: Guid(64118a11d28234ca0b5f1a302f7572a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animation/animMusicOutscreen.anim using Guid(64118a11d28234ca0b5f1a302f7572a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64306e923cc8fd02ef99c4c7d72fe5ea') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_loop_4x.wav
+  artifactKey: Guid(6f6a63c816ee644d499697a2c0cb713a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Sports/car2_sports_c_engine_loop_4x.wav using Guid(6f6a63c816ee644d499697a2c0cb713a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef1fb8e8ce8624117828892037c28d64') in 0.004112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sound/bgm/mr. Rockstar or the illest 2.mp3
+  artifactKey: Guid(76b90c5f5da6b435bb7f4827fbe92bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sound/bgm/mr. Rockstar or the illest 2.mp3 using Guid(76b90c5f5da6b435bb7f4827fbe92bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4be174242d8eb8babe91cc64bc4d797e') in 1.119226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.135699 seconds.
+  path: Assets/MagicSoundEffects/Car_Engines_02/Offroad
+  artifactKey: Guid(e66038b525d4f4d3597e9811a4a0af5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicSoundEffects/Car_Engines_02/Offroad using Guid(e66038b525d4f4d3597e9811a4a0af5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da94cefa2ff53c1cf2521de62f7612') in 0.000666 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
