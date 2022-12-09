@@ -31,8 +31,14 @@ Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Shared.Editor.ref.dll_4001A5F
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.Editor.ref.dll_C201EBD4F8323092.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_BD4E09F68F0E7D0F.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_AC85F13A47E869BA.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.Purchasing.ref.dll_834CEBC123DED8A2.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.TestRunner.ref.dll_1236C9FFD38EBE96.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_DB9C9DC9DBF32258.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.Codeless.ref.dll_F7880BA97EF845BD.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.SecurityCore.ref.dll_4E0B390ED86C0806.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.SecurityStub.ref.dll_9931FE027BD8C345.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.Stores.ref.dll_B08A4B606AA7A7F9.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEngine.Purchasing.ref.dll_4F6B366F4FA2368D.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_DE5514ADFF521C81.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_98027424E2154AC3.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Android.Gradle.dll_55F6DEAFC0BF2C77.mvfrm
